@@ -1,4 +1,5 @@
 # About
+Email benjamin.kent@manchester.ac.uk
 
 # Publications
 - Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs, https://arxiv.org/abs/2210.03389
