@@ -1,9 +1,4 @@
 # Benjamin Kent
-
-**Email** benjamin.kent@manchester.ac.uk **or** benkent@live.co.uk  
-**Phone** +44 7572 944441  
-**British Citizen / Irish Citizen**
-
 ------------------------------------------------------------------------
 
 # Education
