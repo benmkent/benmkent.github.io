@@ -47,9 +47,10 @@ Honours at The University of Warwick, UK**
 
 # Publications
 
--   To appear in Springer *Journal of Scientific Computing*:  
+-   To appear in Springer *Journal of Scientific Computing*:
+    Benjamin M. Kent et al. Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs. 2022. URL: <https://arxiv.org/abs/2210.03389>
 
--   In preparation (thesis first):
+-   In preparation:
 
 ------------------------------------------------------------------------
 
