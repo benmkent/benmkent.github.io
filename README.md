@@ -70,7 +70,7 @@ Honours at The University of Warwick, UK**
 
 -   Manchester SIAM-IMA Student Chapter Conference 2023, April 2023.
     *Adaptive in Time Approximation of Parametric Parabolic PDEs (**Best
-    Student Talk Prize Winner**)*.
+    Student Talk Prize Winner**)*. [Slides](bk-siam-student-conference.pdf)
 
 -   SIAM Conference on Computational Science and Engineering, February
     2023. *Efficient Adaptive Stochastic Collocation Strategies for
