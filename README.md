@@ -1,4 +1,5 @@
-**Email** <benjamin.kent@manchester.ac.uk> **or** <benkent@live.co.uk> 
+**Email** benjamin dot kent at manchester dot ac dot uk  
+**Website** <https://benmkent.github.io/>
 
 ------------------------------------------------------------------------
 
@@ -9,17 +10,15 @@ Manchester, UK**
 
 -   Supervised by Catherine Powell and David Silvester.
 
--   Industry sponsored iCASE project with **IBM Research UK**. This has
-    involved regular study groups with my industrial supervisor.
-
--   Submission of thesis in September 2023.
+-   Industry sponsored iCASE project with **IBM Research UK**.
 
 -   Thesis: *Efficient Approximation of Parametric Parabolic Partial
-    Differential Equations*.
+    Differential Equations*.  
+    Submission: September 2023.
 
-    -   I investigate an adaptive-in-time stochastic collocation
-        approximation of a *parametric time-dependent
-        advection–diffusion problem*.
+    -   I investigate an **adaptive-in-time stochastic collocation
+        approximation** of a parametric time-dependent
+        advection–diffusion problem.
 
     -   It is well known that approximation errors may grow through
         time. An adaptive-in-time approximation is constructed to
@@ -27,16 +26,31 @@ Manchester, UK**
         computational cost. High dimensional parametric spaces are
         considered.
 
-    -   The approach considers an approximation using the *finite
-        element method* in space, *adaptive timestepping*, and *sparse
-        grid* polynomial interpolation in the parameter space.
+    -   The approach considers an approximation using the finite element
+        method in space, adaptive timestepping, and sparse grid
+        polynomial interpolation in the parameter space.
 
     -   Parametric approximation error is estimated through a
         hierarchical technique and is balanced with a dynamic tolerance
         related to an estimate of the global timestepping error.
 
-    -   A residual type strategy in space, time and parameter space is
-        also considered.
+    -   A residual based strategy in space, time and parameter space is
+        also considered using auxiliary local problems.
+
+-   Completed courses in Approximation Theory and Finite Element
+    Analysis, Adaptive Finite Element Methods, Functional Analysis and
+    Uncertainty Quantification. Topics included a priori and a
+    posteriori error estimation for FEM approximations of elliptic
+    problems, UQ techniques including Monte Carlo, stochastic
+    collocation and stochastic Galerkin methods.
+
+-   Regular study group held with industrial supervisor. Topics studied
+    include multi-level stochastic collocation and Monte Carlo methods,
+    error estimation for ODE problems, error estimation for coupled
+    elliptic-parabolic problems, reduced basis methods and neural
+    networks.
+
+-   Strong programming skills in MATLAB. Experience with C and C++.
 
 **September 2012 – July 2015: Mathematics and Physics BSc, First-Class
 Honours at The University of Warwick, UK**
@@ -50,7 +64,10 @@ Honours at The University of Warwick, UK**
 -   To appear in Springer *Journal of Scientific Computing*:\
     Benjamin M. Kent et al. Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs. 2022. URL: <https://arxiv.org/abs/2210.03389>
 
--   In preparation:
+-   In preparation:  
+    *Error Estimation through Auxiliary Local Problems for a Stochastic
+    Collocation Approximation of Advection–Diffusion Problems with
+    Uncertain Inputs.*
 
 ------------------------------------------------------------------------
 
@@ -70,7 +87,8 @@ Honours at The University of Warwick, UK**
 
 -   Manchester SIAM-IMA Student Chapter Conference 2023, April 2023.
     *Adaptive in Time Approximation of Parametric Parabolic PDEs (**Best
-    Student Talk Prize Winner**)*. [Slides](bk-siam-student-conference.pdf)
+    Student Talk Prize Winner**)*.
+    [\[PDF\]](https://benmkent.github.io/bk-siam-student-conference.pdf)
 
 -   SIAM Conference on Computational Science and Engineering, February
     2023. *Efficient Adaptive Stochastic Collocation Strategies for
@@ -95,11 +113,14 @@ Honours at The University of Warwick, UK**
 
 # Teaching
 
--   Teaching assistant for Matrix Analysis, semester one, 2021.
+-   Teaching assistant for Matrix Analysis MATH36001, semester one,
+    2021.
 
--   Teaching assistant for Mathematical Workshop, semester one, 2021.
+-   Teaching assistant for Mathematical Workshop MATH10001, semester
+    one, 2021.
 
--   Teaching assistant for Complex Analysis, semester two, 2020.
+-   Teaching assistant for Complex Analysis MATH20142, semester two,
+    2020.
 
 ------------------------------------------------------------------------
 
@@ -108,24 +129,26 @@ Honours at The University of Warwick, UK**
 Prior to my PhD I worked for approximately four years at the
 multi-national engineering company *Thales* before returning to
 university. I started at *Thales Research and Technology* before
-transferring to the research oriented *General Sonar Studies* group.  
+transferring to the research oriented *General Sonar Studies* group at
+*Thales Underwater Systems*.  
 **September 2017 – August 2019: Algorithm Developer at Thales,
 Stockport, UK**
 
 -   Processing and analysis of datasets to assess algorithm performance.
 
+-   Design and testing of sensor array signal processing algorithms in
+    MATLAB.
+
 -   Required to work alongside systems and software teams to take
     customer requirements to algorithm specifications for implementation
     in products.
-
--   Design and testing of sensor array signal processing algorithms in
-    MATLAB.
 
 **September 2015 – September 2017: Research Engineer at Thales, Reading,
 UK**
 
 -   Graduate scheme with placements working on cryptography, radar
-    signal processing, filtering and tracking algorithms.
+    signal processing, filtering and tracking algorithms. Algorithms
+    developed in C and MATLAB.
 
 -   A week at the University Defence Research Collaboration summer
     school 2016, University of Edinburgh.
