@@ -127,32 +127,9 @@ Honours at The University of Warwick, UK**
 
 Prior to my PhD I worked for approximately four years at the
 multi-national engineering company *Thales* before returning to
-university. I started at *Thales Research and Technology* before
-transferring to the research oriented *General Sonar Studies* group at
-*Thales Underwater Systems*.  
-**September 2017 – August 2019: Algorithm Developer at Thales,
-Stockport, UK**
+university.
 
--   Processing and analysis of datasets to assess algorithm performance.
+**September 2015 – August 2019: Thales UK**
 
--   Design and testing of sensor array signal processing algorithms in
-    MATLAB.
-
--   Required to work alongside systems and software teams to take
-    customer requirements to algorithm specifications for implementation
-    in products.
-
-**September 2015 – September 2017: Research Engineer at Thales, Reading,
-UK**
-
--   Graduate scheme with placements working on cryptography, radar
-    signal processing, filtering and tracking algorithms. Algorithms
-    developed in C and MATLAB.
-
--   A week at the University Defence Research Collaboration summer
-    school 2016, University of Edinburgh.
-
-**July 2014 – August 2014: Rules and Procedures Software Internship,
+**July 2014 – August 2014: Software Internship,
 Lloyd’s Register, Southampton, UK**
-
--   Internship upgrading pieces of FEM software from FORTRAN to C++.
