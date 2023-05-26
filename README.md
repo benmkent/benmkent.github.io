@@ -90,8 +90,7 @@ Honours at The University of Warwick, UK**
     Student Talk Prize Winner**)*.
     [\[PDF\]](https://benmkent.github.io/bk-siam-student-conference.pdf)
 
--   SIAM Conference on Computational Science and Engineering, February
-    2023. *Efficient Adaptive Stochastic Collocation Strategies for
+-   SIAM Conference on Computational Science and Engineering, February 2023. *Efficient Adaptive Stochastic Collocation Strategies for
     Advection-Diffusion Problems with Uncertain Inputs*.
 
 -   SIAM UKIE National Student Chapter Conference, June 2022. *Error
