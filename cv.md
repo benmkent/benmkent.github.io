@@ -1,3 +1,10 @@
+---
+layout: page
+title: Curriculum vitae
+permalink: /cv/
+---
+
+
 **Email** benjamin dot kent at manchester dot ac dot uk  
 **Website** <https://benmkent.github.io/>
 
