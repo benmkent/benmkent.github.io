@@ -3,8 +3,20 @@ GEM
   specs:
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
+    bibtex-ruby (4.4.7)
+      latex-decode (~> 0.0)
+    citeproc (1.0.10)
+      namae (~> 1.0)
+    citeproc-ruby (1.1.14)
+      citeproc (~> 1.0, >= 1.0.9)
+      csl (~> 1.6)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
+    csl (1.6.0)
+      namae (~> 1.0)
+      rexml
+    csl-styles (1.0.1.11)
+      csl (~> 1.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -31,6 +43,11 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-scholar (5.16.0)
+      bibtex-ruby (~> 4.0, >= 4.0.13)
+      citeproc-ruby (~> 1.0)
+      csl-styles (~> 1.0)
+      jekyll (~> 3.0)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
@@ -39,6 +56,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    latex-decode (0.4.0)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -48,6 +66,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    namae (1.1.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
@@ -62,6 +81,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -69,11 +89,14 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
+  jekyll-scholar (~> 5.16)
   kramdown-parser-gfm
+  latex-decode (~> 0.4.0)
   minima (~> 2.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.13
