@@ -89,11 +89,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.9.3)
-  jekyll-feed (~> 0.6)
   jekyll-scholar (~> 5.16)
   kramdown-parser-gfm
   latex-decode (~> 0.4.0)
-  minima
+  minima (~> 2.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)

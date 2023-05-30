@@ -24,13 +24,14 @@ github_username:  benmkent
 #theme: jekyll-swiss
 #theme: jekyll-theme-hydejack
 theme: minima
+#theme: minima-reboot
 #theme: jekyll-theme-minimal
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-scholar
   
 show_excerpts: true
+paginate: 5
 
 site.author.email: false
 
