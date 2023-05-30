@@ -10,6 +10,7 @@ The code corresponding to the preprint [Efficient Adaptive Stochastic Collocatio
 
 # Required MATLAB packages
 To use the package ensure the path contains:
+- [Adaptive SC-FEM package](https://github.com/benmkent/adaptive_sc_fem)
 - [IFISS 3.6](https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/) {% cite Elman2014b %}
 - [Sparse Grids MATLAB Kit](https://sites.google.com/view/sparse-grids-kit) {% cite Piazzola2022 %}
 
