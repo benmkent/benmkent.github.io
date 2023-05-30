@@ -9,7 +9,7 @@ The code corresponding to the preprint [Efficient Adaptive Stochastic Collocatio
 ](https://arxiv.org/abs/2210.03389) is now released on [GitHub](https://github.com/benmkent/adaptive_sc_fem).
 
 # Required MATLAB packages
-To use the pacakge ensure the path contains:
+To use the package ensure the path contains:
 - [IFISS 3.6](https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/) {% cite Elman2014b %}
 - [Sparse Grids MATLAB Kit](https://sites.google.com/view/sparse-grids-kit) {% cite Piazzola2022 %}
 
