@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: category-post
 title:  "Code for Adaptive SC-FEM approximation of advection--diffusion released"
 date:   2023-05-29 17:52:57 +0100
-categories: code
+categories: adaptivescfem
 ---
 
 The code corresponding to the preprint [Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs

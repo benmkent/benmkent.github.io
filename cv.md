@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum vitae
+title: Curriculum Vitae
 permalink: /cv/
 ---
 
@@ -19,30 +19,19 @@ Manchester, UK**
 
 -   Industry sponsored iCASE project with **IBM Research UK**.
 
--   Thesis: *Efficient Approximation of Parametric Parabolic Partial
-    Differential Equations*.  
+-   Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*.
     Submission: September 2023.
 
-    -   I investigate an **adaptive-in-time stochastic collocation
-        approximation** of a parametric time-dependent
-        advection–diffusion problem.
+    -   I investigate an **adaptive-in-time stochastic collocation approximation** of a parametric time-dependent advection–diffusion problem.
 
-    -   It is well known that approximation errors may grow through
-        time. An adaptive-in-time approximation is constructed to
-        control the approximation error whilst maintaining a low
-        computational cost. High dimensional parametric spaces are
-        considered.
+    -   It is well known that approximation errors may grow through time. An adaptive-in-time approximation is constructed to
+        control the approximation error whilst maintaining a low computational cost. High dimensional parametric spaces are considered.
 
-    -   The approach considers an approximation using the finite element
-        method in space, adaptive timestepping, and sparse grid
-        polynomial interpolation in the parameter space.
+    -   The approach considers an approximation using the finite element method in space, adaptive timestepping, and sparse grid polynomial interpolation in the parameter space.
 
-    -   Parametric approximation error is estimated through a
-        hierarchical technique and is balanced with a dynamic tolerance
-        related to an estimate of the global timestepping error.
+    -   Parametric approximation error is estimated through a hierarchical technique and is balanced with a dynamic tolerance related to an estimate of the global timestepping error.
 
-    -   A residual based strategy in space, time and parameter space is
-        also considered using auxiliary local problems.
+    -   A residual based strategy in space, time and parameter space is also considered using auxiliary local problems.
 
 -   Completed courses in Approximation Theory and Finite Element
     Analysis, Adaptive Finite Element Methods, Functional Analysis and
@@ -119,14 +108,11 @@ Honours at The University of Warwick, UK**
 
 # Teaching
 
--   Teaching assistant for Matrix Analysis MATH36001, semester one,
-    2021.
+-   Teaching assistant for Matrix Analysis MATH36001, semester one, 2021.
 
--   Teaching assistant for Mathematical Workshop MATH10001, semester
-    one, 2021.
+-   Teaching assistant for Mathematical Workshop MATH10001, semester one, 2021.
 
--   Teaching assistant for Complex Analysis MATH20142, semester two,
-    2020.
+-   Teaching assistant for Complex Analysis MATH20142, semester two, 2020.
 
 ------------------------------------------------------------------------
 
