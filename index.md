@@ -9,3 +9,7 @@ I am a final year PhD student in the [Department of Mathematics](https://www.mat
 My research is into the *numerical analysis* and *a posteriori error estimation* of adaptive approximations to *parametric partial differential equations*.
 
 My supervisors are [Professor Catherine Powell](https://personalpages.manchester.ac.uk/staff/Catherine.Powell/) and [Professor David Silvester](https://personalpages.manchester.ac.uk/staff/david.silvester/).
+
+Prior to my PhD, I attended The University of Warwick. I recieved a First-Class Honours BSc in [Mathematics and Physics BSc](https://warwick.ac.uk/study/undergraduate/courses/mathsphysicsbsc/).
+
+I also have four years of work experience at the mult-national engineering company [Thales UK](https://www.thalesgroup.com/en/countries/europe/united-kingdom).
