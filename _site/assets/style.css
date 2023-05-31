@@ -30,7 +30,7 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #1E3888;
+  color: #122354;
   background-color: #fff; }
 
 p {
@@ -76,7 +76,7 @@ pre {
   overflow-x: auto; }
 
 code {
-  color: #DD4803;
+  color: #C94203;
   font-size: 16px;
   padding: 1px 0px; }
 
@@ -118,7 +118,7 @@ code {
       .prose blockquote p {
         font-size: 32px; } }
 .prose hr {
-  color: #1E3888;
+  color: #122354;
   border-style: solid;
   border-width: thin;
   margin-top: 0.5em;
@@ -144,14 +144,14 @@ code {
   .prose table th,
   .prose table td {
     padding: 16px 32px 16px 2px;
-    border-top: 1px solid #1E3888;
-    border-bottom: 1px solid #1E3888; }
+    border-top: 1px solid #122354;
+    border-bottom: 1px solid #122354; }
   .prose table tr {
     background-color: #fff;
-    border-top: 1px solid #1E3888; }
+    border-top: 1px solid #122354; }
   .prose table tr th {
-    border-top: 2px solid #1E3888;
-    border-bottom: 2px solid #1E3888; }
+    border-top: 2px solid #122354;
+    border-bottom: 2px solid #122354; }
 
 /* Type utilities */
 .h0 {
@@ -206,28 +206,28 @@ code {
 
 /* Theme color utilities */
 .header-background {
-  background-color: #1E3888; }
+  background-color: #122354; }
 
 .header-border {
-  border-color: #D7D9CE; }
+  border-color: #fff; }
 
 .header-title {
-  color: #D7D9CE; }
+  color: #fff; }
 
 .header-text {
-  color: #D7D9CE; }
+  color: #fff; }
 
 .header-social {
-  fill: #D7D9CE; }
+  fill: #fff; }
 
 .header-social-accent {
-  fill: #732C2C; }
+  fill: #C94203; }
 
 .header-link:hover {
-  color: #732C2C !important; }
+  color: #C94203 !important; }
 
 .text-accent {
-  color: #732C2C; }
+  color: #C94203; }
 
 /* Layout utilities */
 .container {
@@ -479,5 +479,5 @@ code {
   font-weight: bold;
   text-decoration: none !important; }
   .link-primary:hover {
-    color: #732C2C;
+    color: #C94203;
     text-decoration: none !important; }
