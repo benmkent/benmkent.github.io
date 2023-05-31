@@ -35,7 +35,7 @@ social_username:
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: black
+theme_color: bk
 
 # Build settings
 markdown: kramdown
