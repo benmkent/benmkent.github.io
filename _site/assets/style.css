@@ -76,7 +76,7 @@ pre {
   overflow-x: auto; }
 
 code {
-  color: #3E5D32;
+  color: #C94203;
   font-size: 16px;
   padding: 1px 0px; }
 
@@ -209,25 +209,25 @@ code {
   background-color: #122354; }
 
 .header-border {
-  border-color: #FFFBFC; }
+  border-color: #fff; }
 
 .header-title {
-  color: #FFFBFC; }
+  color: #fff; }
 
 .header-text {
-  color: #FFFBFC; }
+  color: #fff; }
 
 .header-social {
-  fill: #FFFBFC; }
+  fill: #fff; }
 
 .header-social-accent {
-  fill: #122354; }
+  fill: #C94203; }
 
 .header-link:hover {
-  color: #4281A4 !important; }
+  color: #C94203 !important; }
 
 .text-accent {
-  color: #4281A4; }
+  color: #C94203; }
 
 /* Layout utilities */
 .container {
@@ -479,5 +479,5 @@ code {
   font-weight: bold;
   text-decoration: none !important; }
   .link-primary:hover {
-    color: #4281A4;
+    color: #C94203;
     text-decoration: none !important; }

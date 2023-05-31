@@ -1,22 +1,19 @@
 // Color variables
-$black: #181818;
-$red: #F6511D;
-$red-small: #DC3918;
-$blue: #122354;
-$blue-small: #3E5D32;
-$gray: #4281A4;
-$white: #FFFBFC;
+$black: #122354;
+$blue: #C94203;
+$blue-small: #C94203;
+$white: #fff;
 
 // Config
-$color-background: $blue !default;
+$color-background: $black !default;
 $color-dot-accent: $blue !default;
 $color-foreground: $white !default;
 $color-title: $white !default;
-$color-body-text: $blue !default;
-$color-text-accent: $gray !default;
+$color-body-text: $black !default;
+$color-text-accent: $blue !default;
 $color-code: $blue-small !default;
-$color-nav-link: $gray !default;
-$color-primary-link: $gray !default;
+$color-nav-link: $blue !default;
+$color-primary-link: $blue !default;
 
 .font-smoothing {
   -webkit-font-smoothing: antialiased;
