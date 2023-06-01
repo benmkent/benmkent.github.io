@@ -16,7 +16,15 @@ To use the package ensure the path contains:
 
 # Running the examples
 There are two examples included corresponding to the examples in {% cite Kent2022 %}.
-The four parameter example is walked through below.
+These are the scripts
+```matlab
+run_experiment_4_dim.m
+```
+and
+```matlab
+run_experiment_64_dimensional.m
+```
+The four parameter example is annotated below.
 
 First the test problem is defined.
 ```matlab
