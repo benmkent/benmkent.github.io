@@ -31,7 +31,8 @@ First the test problem is defined.
 %% Define problem
 problem = define_problem('doubleglazing');
 ```
-A reference solution is set up. Approximation errors will be computed with respect to this solution.
+A reference solution is set up. Approximation errors will be computed with respect to this solution. A prompt stating
+```Load file reference.mat :```. Input ```0``` (this creates a reference approximation instead of loading a precomputed one).
 ```matlab
 %% Set up reference
 params = define_params('l4-jomp');
