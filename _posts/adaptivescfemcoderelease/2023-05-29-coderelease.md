@@ -41,10 +41,9 @@ params.letol = 1e-7;
 adaptive_sc_fem;
 save(['reference.mat'],'reference','data_table','fem','problem','params', '-v7.3')
 ```
-
 The approximation is then constructed.
-The reference approximation is define to be within the current folder.
-The parameters are set to the predefined set ```l4-jomp```.
+The reference approximation is defined to be precomputed and saved within the current folder.
+The parameters are set to the predefined set l4-jomp.
 ```matlab
 %% Run experiments
 
