@@ -24,7 +24,6 @@ github_username:  benmkent
 theme: jekyll-swiss
 #theme: minima-reboot
 #theme: jekyll-theme-minimal
-markdown: kramdown
 plugins: ['jekyll/scholar']
 
 scholar:
@@ -41,5 +40,9 @@ theme_color: bk
 
 # Build settings
 markdown: kramdown
-
+ 
+kramdown:
+  input: GFM
+  hard_wrap: false
+  
 excerpt_separator: "<!--more-->"
