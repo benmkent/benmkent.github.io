@@ -27,8 +27,13 @@ theme: jekyll-swiss
 plugins: ['jekyll/scholar']
 
 scholar:
+  source:	./_bibliography
+  bibliography: *.bib
 style: dependent/numerische-mathematik
-  
+bibtex_filters:
+  - markdown
+  - latex
+ 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: 
