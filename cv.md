@@ -12,8 +12,7 @@ permalink: /cv/
 
 # Education
 
-**September 2019 – September 2023: PhD candidate at The University of
-Manchester, UK**
+**September 2019 – September 2023: PhD candidate at The University of Manchester, UK**
 
 -   Supervised by Catherine Powell and David Silvester.
 
@@ -33,23 +32,12 @@ Manchester, UK**
 
     -   A residual based strategy in space, time and parameter space is also considered using auxiliary local problems.
 
--   Completed courses in Approximation Theory and Finite Element
-    Analysis, Adaptive Finite Element Methods, Functional Analysis and
-    Uncertainty Quantification. Topics included a priori and a
-    posteriori error estimation for FEM approximations of elliptic
-    problems, UQ techniques including Monte Carlo, stochastic
-    collocation and stochastic Galerkin methods.
+-   Completed courses in Approximation Theory and Finite Element Analysis, Adaptive Finite Element Methods, Functional Analysis and Uncertainty Quantification. Topics included a priori and a posteriori error estimation for FEM approximations of elliptic problems, UQ techniques including Monte Carlo, stochastic collocation and stochastic Galerkin methods.
 
--   Regular study group held with industrial supervisor. Topics studied
-    include multi-level stochastic collocation and Monte Carlo methods,
-    error estimation for ODE problems, error estimation for coupled
-    elliptic-parabolic problems, reduced basis methods and neural
-    networks.
-
+-   Regular study group held with industrial supervisor. Topics studied include multi-level stochastic collocation and Monte Carlo methods, error estimation for ODE problems, error estimation for coupled elliptic-parabolic problems, reduced basis methods and neural networks.
 -   Strong programming skills in MATLAB. Experience with C and C++.
 
-**September 2012 – July 2015: Mathematics and Physics BSc, First-Class
-Honours at The University of Warwick, UK**
+**September 2012 – July 2015: Mathematics and Physics BSc, First-Class Honours at The University of Warwick, UK**
 
 -   **Prize** for the best exam results in my cohort.
 
@@ -62,48 +50,43 @@ Honours at The University of Warwick, UK**
     Benjamin M. Kent et al. Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs. 2023. URL: <https://arxiv.org/abs/2210.03389>
 
 -   In preparation:  
-    *Error Estimation through Auxiliary Local Problems for a Stochastic
-    Collocation Approximation of Advection–Diffusion Problems with
-    Uncertain Inputs.*
+    *Error Estimation through Auxiliary Local Problems for a Stochastic Collocation Approximation of Advection–Diffusion Problems with Uncertain Inputs.*
 
 ------------------------------------------------------------------------
 
 # Conference Organisation
 
--   Co-organiser of *Manchester Mathematics Research Student Conference*
-    online conference in 2020.  
+-   Co-organiser of *Manchester Mathematics Research Student Conference* online conference in 2020.  
     <https://www.maths.manchester.ac.uk/~pgconf/>
 
--   Co-organiser of *Mathematics of Data Science* online student
-    conference in 2020.  
+-   Co-organiser of *Mathematics of Data Science* online student conference in 2020.  
     <https://maths-of-data.github.io/>
 
 ------------------------------------------------------------------------
 
 # Conference Talks
 
+-   The 29TH Biennial Numerical Analysis Conference 2023, June 2023.
+    *Adaptive in Time Approximation of Parametric Parabolic PDEs*.
+
 -   Manchester SIAM-IMA Student Chapter Conference 2023, April 2023.
-    *Adaptive in Time Approximation of Parametric Parabolic PDEs (**Best
-    Student Talk Prize Winner**)*.
-    [\[PDF\]](/assets/slides/bk-siam-student-conference.pdf)
+    *Adaptive in Time Approximation of Parametric Parabolic PDEs (**Best Student Talk Prize Winner**)*. [\[PDF\]](/assets/slides/bk-siam-student-conference.pdf)
 
--   SIAM Conference on Computational Science and Engineering, February 2023. *Efficient Adaptive Stochastic Collocation Strategies for
-    Advection-Diffusion Problems with Uncertain Inputs*.
+-   SIAM Conference on Computational Science and Engineering, February 2023. 
+    *Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs*.
 
--   SIAM UKIE National Student Chapter Conference, June 2022. *Error
-    Estimation for Stochastic Collocation Approximation of Parametric
+-   SIAM UKIE National Student Chapter Conference, June 2022.
+    *Error Estimation for Stochastic Collocation Approximation of Parametric
     Advection–Diffusion Problems*.
 
--   IBM Research UK (**invited seminar**), April 2022. *Efficient
-    Approximation of Parametric Parabolic PDEs*.
+-   IBM Research UK (**invited seminar**), April 2022.
+    *Efficient Approximation of Parametric Parabolic PDEs*.
 
--   SIAM Conference on Uncertainty Quantification, April 2022. *A
-    Posteriori Error Estimation for Stochastic Collocation Applied to
-    Parametric Parabolic PDEs*.
+-   SIAM Conference on Uncertainty Quantification, April 2022.
+    *A Posteriori Error Estimation for Stochastic Collocation Applied to Parametric Parabolic PDEs*.
 
--   26th Annual Meeting of SIAM UKIE Section, January 2022. *A
-    Posteriori Error Estimation for Stochastic Collocation Applied to
-    Parametric Parabolic PDEs*.
+-   26th Annual Meeting of SIAM UKIE Section, January 2022. 
+    *A Posteriori Error Estimation for Stochastic Collocation Applied to Parametric Parabolic PDEs*.
 
 ------------------------------------------------------------------------
 
@@ -119,11 +102,8 @@ Honours at The University of Warwick, UK**
 
 # Industrial Experience
 
-Prior to my PhD I worked for approximately four years at the
-multi-national engineering company *Thales* before returning to
-university.
+Prior to my PhD I worked for approximately four years at the multi-national engineering company *Thales* before returning to university.
 
 **September 2015 – August 2019: Thales UK**
 
-**July 2014 – August 2014: Software Internship,
-Lloyd’s Register, Southampton, UK**
+**July 2014 – August 2014: Software Internship, Lloyd’s Register, Southampton, UK**
