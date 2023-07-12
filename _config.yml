@@ -27,7 +27,7 @@ theme: jekyll-swiss
 plugins: ['jekyll/scholar']
 
 scholar:
-style: dependent/numerische-mathematik.csl
+style: dependent/numerische-mathematik
   
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
@@ -44,5 +44,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  
+
 excerpt_separator: "<!--more-->"
