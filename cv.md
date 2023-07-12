@@ -8,8 +8,6 @@ permalink: /cv/
 **Email** benjamin dot kent at manchester dot ac dot uk  
 **Website** <https://benmkent.github.io/>
 
-------------------------------------------------------------------------
-
 # Education
 
 **September 2019 – September 2023: PhD candidate at The University of Manchester, UK**
@@ -30,14 +28,10 @@ permalink: /cv/
 
 -   **Prize** for the best exam results in my cohort.
 
-------------------------------------------------------------------------
-
 # Publications
 - {% reference Kent2023 %}
 -   In preparation:  
     *Error Estimation through Auxiliary Local Problems for a Stochastic Collocation Approximation of Advection–Diffusion Problems with Uncertain Inputs.*
-
-------------------------------------------------------------------------
 
 # Conference Organisation
 
@@ -45,8 +39,6 @@ permalink: /cv/
     <https://www.maths.manchester.ac.uk/~pgconf/>
 -   Co-organiser of *Mathematics of Data Science* online student conference in 2020.  
     <https://maths-of-data.github.io/>
-
-------------------------------------------------------------------------
 
 # Conference Talks
 
@@ -66,15 +58,11 @@ permalink: /cv/
 -   26th Annual Meeting of SIAM UKIE Section, January 2022. 
     *A Posteriori Error Estimation for Stochastic Collocation Applied to Parametric Parabolic PDEs*.
 
-------------------------------------------------------------------------
-
 # Teaching
 
 -   Teaching assistant for Matrix Analysis MATH36001, semester one, 2021.
 -   Teaching assistant for Mathematical Workshop MATH10001, semester one, 2021.
 -   Teaching assistant for Complex Analysis MATH20142, semester two, 2020.
-
-------------------------------------------------------------------------
 
 # Industrial Experience
 
