@@ -45,9 +45,10 @@ permalink: /cv/
 
 # Publications
 
-    {% bibliography --file papers.bib%}
--   To appear in Springer *Journal of Scientific Computing*:\
-    Benjamin M. Kent et al. Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs. 2023. URL: <https://arxiv.org/abs/2210.03389>
+- {% reference Kent2023 %}
+
+<!-- -   To appear in Springer *Journal of Scientific Computing*:\ -->
+    <!-- Benjamin M. Kent et al. Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs. 2023. URL: <https://arxiv.org/abs/2210.03389> -->
 
 -   In preparation:  
     *Error Estimation through Auxiliary Local Problems for a Stochastic Collocation Approximation of Advection–Diffusion Problems with Uncertain Inputs.*
