@@ -28,7 +28,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
   source:	./_bibliography
-  bibliography: *.bib
+  bibliography: references.bib
+  bibliography: papers.bib  
   style: dependent/numerische-mathematik
  
 # Optional social link, you can choose from the following options:
