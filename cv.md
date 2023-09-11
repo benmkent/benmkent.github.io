@@ -67,6 +67,6 @@ permalink: /cv/
 # Industrial Experience
 
 Prior to my PhD I worked for approximately four years at the multi-national engineering company *Thales* before returning to university.
+-    September 2015 – August 2019: **Thales UK**
 
-**September 2015 – August 2019: Thales UK**
-**July 2014 – August 2014: Software Internship, Lloyd’s Register, Southampton, UK**
+-    July 2014 – August 2014: Software Internship, **Lloyd’s Register**, Southampton, UK
