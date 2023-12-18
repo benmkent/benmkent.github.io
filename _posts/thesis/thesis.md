@@ -1,0 +1,9 @@
+---
+layout: category-post
+title:  "Awarded PhD in Numerical Analysis"
+date:   2023-12-13 12:00:00 +0100
+categories:
+---
+After four years of hard work I have been awarded my PhD!
+
+My thesis titled [Efficient Approximation of Parametric Parabolic Partial Differential Equations](https://research.manchester.ac.uk/en/studentTheses/efficient-approximation-of-parametric-parabolic-partial-different) is available online on through the University of Manchester website.
