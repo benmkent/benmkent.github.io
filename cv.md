@@ -8,25 +8,61 @@ permalink: /cv/
 **Email** benjamin dot kent at manchester dot ac dot uk  
 **Website** <https://benmkent.github.io/>
 
-# Education
+# Experience
 
-**September 2019 – September 2023: PhD candidate at The University of Manchester, UK**
--   Supervised by Catherine Powell and David Silvester.
--   Industry sponsored iCASE project with **IBM Research UK**.
--   Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*.
-    Submission: September 2023.
-    -   I investigate an **adaptive-in-time stochastic collocation approximation** of a parametric time-dependent advection–diffusion problem.
-    -   It is well known that approximation errors may grow through time. An adaptive-in-time approximation is constructed to control the approximation error whilst maintaining a low computational cost. High dimensional parametric spaces are considered.
-    -   The approach considers an approximation using the finite element method in space, adaptive timestepping, and sparse grid polynomial interpolation in the parameter space.
-    -   Parametric approximation error is estimated through a hierarchical technique and is balanced with a dynamic tolerance related to an estimate of the global timestepping error.
-    -   A residual based strategy in space, time and parameter space is also considered using auxiliary local problems.
--   Completed courses in Approximation Theory and Finite Element Analysis, Adaptive Finite Element Methods, Functional Analysis and Uncertainty Quantification. Topics included a priori and a posteriori error estimation for FEM approximations of elliptic problems, UQ techniques including Monte Carlo, stochastic collocation and stochastic Galerkin methods.
--   Regular study group held with industrial supervisor. Topics studied include multi-level stochastic collocation and Monte Carlo methods, error estimation for ODE problems, error estimation for coupled elliptic-parabolic problems, reduced basis methods and neural networks.
--   Strong programming skills in MATLAB. Experience with C and C++.
+**September 2019 – November 2023: PhD in Numerical Analysis at The
+University of Manchester, UK**  
+I investigated the adaptive approximation of the solutions to
+time-dependent partial differential equations with uncertain inputs.
 
-**September 2012 – July 2015: Mathematics and Physics BSc, First-Class Honours at The University of Warwick, UK**
+-   Thesis: **Efficient Approximation of Parametric Parabolic Partial
+    Differential Equations**.
+
+-   Supervised by Professor Catherine Powell and Professor David
+    Silvester. Industry sponsored iCASE project with **IBM Research
+    UK**.
+
+-   Researched and developed an **adaptive-in-time stochastic
+    collocation approximation** for parametric time-dependent
+    advection–diffusion problems. Parametric formulations are derived
+    from an underlying description of problem uncertainty through the
+    language of probability theory. Computationally efficient yet
+    accurate approximations are essential for evaluating quantities of
+    interest.
+
+-   Finite element, adaptive timestepping and global polynomial
+    approximation techniques are analysed. **Error estimation** through
+    hierarchical and residual based techniques is investigated.
+    Estimates are used to adaptively construct an approximation.
+
+-   Studied courses in Uncertainty Quantification, Functional Analysis,
+    Approximation Theory and Finite Element Analysis, Adaptive Finite
+    Element Methods. Topics studied include Bayesian inverse problems,
+    UQ techniques including Monte Carlo, stochastic collocation and
+    stochastic Galerkin methods, and a priori and a posteriori error
+    estimation for FEM approximations of elliptic problems.
+
+-   Further reading group sessions studied multi-level stochastic
+    collocation and Monte Carlo methods, error estimation for ODE
+    problems, error estimation for coupled elliptic-parabolic problems,
+    reduced basis methods and neural networks.
+
+**September 2012 – July 2015: Mathematics and Physics BSc, First-Class
+Honours at The University of Warwick, UK**
 
 -   **Prize** for the best exam results in my cohort.
+
+**July 2014 – August 2014: Rules and Procedures Software, Lloyd’s
+Register, Southampton, UK**
+
+-   Internship upgrading pieces of FEM software from FORTRAN to C++.
+
+**September 2010 – July 2012: The College of Richard Collyer, Horsham,
+UK**
+
+-   A Levels: Mathematics A\*, Further Mathematics A\*, Physics A\*,
+    Chemistry A\*, Electronics A\*.  
+    GCSE: 10 A\* (inc Maths and English) + 1 A
 
 # Publications
 - {% reference Kent2023 %}
@@ -66,7 +102,26 @@ permalink: /cv/
 
 # Industrial Experience
 
-Prior to my PhD I worked for approximately four years at the multi-national engineering company *Thales* before returning to university.
--    September 2015 – August 2019: **Thales UK**
+**September 2017 – August 2019: Algorithm Developer at Thales,
+Stockport, UK**
 
--    July 2014 – August 2014: Software Internship, **Lloyd’s Register**, Southampton, UK
+-   Preprocessing of noisy time series sensor data and analysis of large
+    array signal processing algorithms.
+
+-   Analysis tasks taking data sets from customer experiments and
+    writing reports presenting computational results.
+
+-   Development tasks working alongside systems engineers to take
+    customer requirements to algorithm specifications, and alongside
+    software engineers to implement algorithm specifications in
+    products.
+
+**September 2015 – September 2017: Research Engineer at Thales, Reading,
+UK**
+
+-   Two-year graduate scheme with training in both technical and core
+    skills.
+
+-   Four project placements: cryptographic key exchange algorithms,
+    signal processing algorithms, filtering and tracking
+    algorithms, array signal processing and data analysis.
