@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 
 
-**Email** benjamin dot kent at manchester dot ac dot uk  
+**Email** ben dot kent at live dot co dot uk
 **Website** <https://benmkent.github.io/>
 
 # Experience
