@@ -2,7 +2,7 @@
 layout: category-post
 title:  "Awarded PhD in Numerical Analysis"
 date:   2023-12-13 12:00:00 +0100
-categories:
+categories: cv
 ---
 After four years of hard work I have been awarded my PhD!
 
