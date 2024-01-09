@@ -4,48 +4,32 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-
 **Email** ben dot kent at live dot co dot uk
 **Website** <https://benmkent.github.io/>
+**GitHub** <https://github.com/benmkent/>
 
 # Experience
 
-**September 2019 – November 2023: PhD in Numerical Analysis at The
-University of Manchester, UK**  
-I investigated the adaptive approximation of the solutions to
-time-dependent partial differential equations with uncertain inputs.
+**Education**  
+**September 2019 – November 2023: PhD in Numerical Analysis at The University of Manchester, UK**
 
--   Thesis: **Efficient Approximation of Parametric Parabolic Partial
-    Differential Equations**.
+-   Supervised by Professor Catherine Powell and Professor David Silvester.
 
--   Supervised by Professor Catherine Powell and Professor David
-    Silvester. Industry sponsored iCASE project with **IBM Research
-    UK**.
+-   Industry sponsored ICASE project with **IBM Research UK**.
 
--   Researched and developed an **adaptive-in-time stochastic
-    collocation approximation** for parametric time-dependent
-    advection–diffusion problems. Parametric formulations are derived
-    from an underlying description of problem uncertainty through the
-    language of probability theory. Computationally efficient yet
-    accurate approximations are essential for evaluating quantities of
-    interest.
+-   Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*.
 
--   Finite element, adaptive timestepping and global polynomial
-    approximation techniques are analysed. **Error estimation** through
-    hierarchical and residual based techniques is investigated.
-    Estimates are used to adaptively construct an approximation.
+    -   I investigate an **adaptive-in-time sparse-grid stochastic collocation approximation** of a parametric time-dependent advection–diffusion problem.
 
--   Studied courses in Uncertainty Quantification, Functional Analysis,
-    Approximation Theory and Finite Element Analysis, Adaptive Finite
-    Element Methods. Topics studied include Bayesian inverse problems,
-    UQ techniques including Monte Carlo, stochastic collocation and
-    stochastic Galerkin methods, and a priori and a posteriori error
-    estimation for FEM approximations of elliptic problems.
+    -   I consider an approximation using the finite element method in space, adaptive timestepping with local error control, and sparse grid polynomial interpolation in the parameter space.
 
--   Further reading group sessions studied multi-level stochastic
-    collocation and Monte Carlo methods, error estimation for ODE
-    problems, error estimation for coupled elliptic-parabolic problems,
-    reduced basis methods and neural networks.
+    -   Parametric approximation error is estimated through a hierarchical technique. An adaptive approximation is formed that controls the parametric error to a dynamic tolerance related to an estimate of the global timestepping error.
+
+    -   A residual based error estimation strategy in space, time and parameter space is also considered.
+
+-   Completed courses in *Uncertainty Quantification*, *Functional Analysis*, *Approximation Theory and Finite Element Analysis*, *Adaptive Finite Element Methods*.
+
+-   Topics studied include UQ techniques (*Monte Carlo*, *stochastic collocation*, *stochastic Galerkin methods*), *a priori and a posteriori error estimation* for FEM approximations of elliptic problems and *Bayesian inverse problems*.
 
 **September 2012 – July 2015: Mathematics and Physics BSc, First-Class
 Honours at The University of Warwick, UK**
@@ -62,7 +46,7 @@ UK**
 
 -   A Levels: Mathematics A\*, Further Mathematics A\*, Physics A\*,
     Chemistry A\*, Electronics A\*.  
-    GCSE: 10 A\* (inc Maths and English) + 1 A
+    GCSE: 10 A\* (inc Maths and English) + 1 A (French)
 
 # Publications
 - {% reference Kent2023 %}
@@ -85,8 +69,7 @@ UK**
 -   SIAM Conference on Computational Science and Engineering, February 2023. 
     *Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs*.
 -   SIAM UKIE National Student Chapter Conference, June 2022.
-    *Error Estimation for Stochastic Collocation Approximation of Parametric
-    Advection–Diffusion Problems*.
+    *Error Estimation for Stochastic Collocation Approximation of Parametric Advection–Diffusion Problems*.
 -   IBM Research UK (**invited seminar**), April 2022.
     *Efficient Approximation of Parametric Parabolic PDEs*.
 -   SIAM Conference on Uncertainty Quantification, April 2022.
@@ -94,34 +77,48 @@ UK**
 -   26th Annual Meeting of SIAM UKIE Section, January 2022. 
     *A Posteriori Error Estimation for Stochastic Collocation Applied to Parametric Parabolic PDEs*.
 
-# Teaching
-
--   Teaching assistant for Matrix Analysis MATH36001, semester one, 2021.
--   Teaching assistant for Mathematical Workshop MATH10001, semester one, 2021.
--   Teaching assistant for Complex Analysis MATH20142, semester two, 2020.
-
 # Industrial Experience
 
 **September 2017 – August 2019: Algorithm Developer at Thales,
 Stockport, UK**
 
--   Preprocessing of noisy time series sensor data and analysis of large
-    array signal processing algorithms.
+-   Preprocessing of noisy time series sensor data and analysis of array signal processing algorithms.
 
--   Analysis tasks taking data sets from customer experiments and
-    writing reports presenting computational results.
+-   Analysis of data sets from customer experiments and producing reports presenting computational results.
 
--   Development tasks working alongside systems engineers to take
-    customer requirements to algorithm specifications, and alongside
-    software engineers to implement algorithm specifications in
-    products.
+-   Development tasks working alongside systems engineers to take customer requirements to algorithm specifications, and alongside software engineers to implement algorithm specifications in products.
 
 **September 2015 – September 2017: Research Engineer at Thales, Reading,
 UK**
 
--   Two-year graduate scheme with training in both technical and core
-    skills.
+-   Two-year graduate scheme with training in both technical and core skills.
 
--   Four project placements: cryptographic key exchange algorithms,
-    signal processing algorithms, filtering and tracking
-    algorithms, array signal processing and data analysis.
+-   Four project placements: cryptographic key exchange algorithms, radar signal processing algorithms, filtering and tracking algorithms, array signal processing and data analysis.
+    
+**July 2014 – August 2014: Rules and Procedures Software Internship,
+Lloyd’s Register, Southampton, UK**
+
+-   Internship upgrading pieces of FEM software from FORTRAN to C++.
+
+# Programming Experience
+
+-   MATLAB: 8 years as primary language (4 years at Thales, 4 years
+    PhD).
+
+-   Python: Minor research projects at Thales and experiments
+    investigating FEM implementations during PhD.
+
+-   C / C++: Development of key-exchange algorithms in 6 month project
+    placement at Thales, undergraduate course at the University of
+    Warwick, reimplementation of FORTRAN codebase into C++ at Lloyd’s
+    Register.
+
+-   Experience using UNIX systems, experience using version control
+    systems (git or SVN). Proficient with LaTeX for typesetting.
+    Interest in Julia for mathematical programming.
+
+  #  Teaching
+
+-   Teaching assistant for Matrix Analysis MATH36001, semester one, 2021.
+-   Teaching assistant for Mathematical Workshop MATH10001, semester one, 2021.
+-   Teaching assistant for Complex Analysis MATH20142, semester two, 2020.
