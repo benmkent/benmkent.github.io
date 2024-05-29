@@ -2,20 +2,6 @@
 <html>
 
   {% include head.html %}
-  <head>
-    <style>
-      .circular-image {
-        width: 200px; /* Adjust the width and height as needed */
-        height: 200px;
-        border-radius: 50%; /* Makes the image circular */
-        overflow: hidden; /* Ensures the image doesn't overflow the circle */
-      }
-      .circular-image img {
-        width: 100%; /* Ensures the image fills the circular container */
-        height: auto; /* Maintains aspect ratio */
-      }
-    </style>
-  </head>
 
   <body>
 
@@ -35,7 +21,7 @@
           </ul>
         </div>
 
-        <div class="container col-9  px-2 mb-2 clearfix header-text">
+        <div class="container mx-auto px-2 mb-2 clearfix header-text">
           <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
 
           <div class="clearfix mb-4 py-1">
@@ -55,7 +41,6 @@
               <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
             </div>
 
-
             <!-- <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
                 <div class="inline-block mt-3 mr-1">
                   {% include dot.html %}
@@ -71,15 +56,8 @@
 
       
       <div class="container mx-auto px-2 py-4">
-        <div class="container col-7  px-2 mb-2 clearfix">
-          <div class="prose" itemprop="articleBody">
-          {{ content }}
-          </div>
-        </div>
-        <div class="container col-3  px-2 mb-2 clearfix">
-            <div class="circular-image">
-              <img src="/assets/images/Portrait.jpg" alt="Author Image">
-            </div>
+        <div class="prose" itemprop="articleBody">
+        {{ content }}
         </div>
       
         {% for post in site.posts %}
