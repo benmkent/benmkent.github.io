@@ -2,7 +2,7 @@
 layout: category-post
 title:  "Manchester SIAM-IMA Student Chapter Conference 2023"
 date:   2023-04-27 17:52:57 +0100
-categories: presentation
+categories: blog
 --- 
 
 I presented at the [Manchester SIAM-IMA Student Chapter Conference 2023](https://www.maths.manchester.ac.uk/~siam/msiscc23/) and won an award for *Best Student Talk*.
