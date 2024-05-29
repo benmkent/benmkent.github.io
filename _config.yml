@@ -36,8 +36,8 @@ scholar:
 # twitter (default), instagram, medium, or dribbble
 social_link: instagram
 social_username: benkent94
-social_link: linkedin
-social_username: benjaminmkent
+# social_link: linkedin
+linkedin_username: benjaminmkent
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
