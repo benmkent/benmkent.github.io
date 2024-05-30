@@ -10,9 +10,12 @@ permalink: /cv/
 
 # Experience
 
-**Education**  
-**September 2019 – November 2023: PhD in Numerical Analysis at The University of Manchester, UK**
+**Academic**
 
+** February 20024 – Present: Postdoc at IMATI-CNR, Pavia, Italy**
+- Development of *novel sparse grid polynomial approximation algorithms* in the context of *uncertainty quantification*.
+
+**September 2019 – November 2023: PhD in Numerical Analysis at The University of Manchester, UK**
 -   Supervised by Professor [Professor Catherine Powell](https://personalpages.manchester.ac.uk/staff/Catherine.Powell/) and [Professor David Silvester](https://personalpages.manchester.ac.uk/staff/david.silvester/).
 -   Industry sponsored ICASE project with **IBM Research UK**.
 -   Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*.

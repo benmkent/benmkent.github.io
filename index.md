@@ -18,3 +18,4 @@ I have four years experience in research focused roles at the multi-national eng
 - *Sparse grid approximation* and related techniques.
 - *A posteriori error estimation* and *adaptive* approximation of parametric PDEs.
 - In particular, the above in the context of *parabolic* PDE problems.
+- *Uncertainty quantification*.
