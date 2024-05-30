@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-**Email** ben dot kent at live dot co dot uk<br>
+**Email** ben kent at live dot co dot uk<br>
 **Website** <https://benmkent.github.io/><br>
 **GitHub** <https://github.com/benmkent/><br>
 
