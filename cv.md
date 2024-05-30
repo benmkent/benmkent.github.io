@@ -8,9 +8,7 @@ permalink: /cv/
 **Website** <https://benmkent.github.io/><br>
 **GitHub** <https://github.com/benmkent/><br>
 
-# Experience
-
-**Academic**
+# Academic Experience
 
 **February 20024 – Present: Postdoc at IMATI-CNR, Pavia, Italy**
 - Development of *novel sparse grid polynomial approximation algorithms* in the context of *uncertainty quantification*.
