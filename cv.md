@@ -12,7 +12,7 @@ permalink: /cv/
 
 **Academic**
 
-** February 20024 – Present: Postdoc at IMATI-CNR, Pavia, Italy**
+**February 20024 – Present: Postdoc at IMATI-CNR, Pavia, Italy**
 - Development of *novel sparse grid polynomial approximation algorithms* in the context of *uncertainty quantification*.
 
 **September 2019 – November 2023: PhD in Numerical Analysis at The University of Manchester, UK**
@@ -86,7 +86,7 @@ Lloyd’s Register, Southampton, UK**
 -   Version control (git, SVN).
 -   Proficient with LaTeX.
 
-  #  Teaching
+#  Teaching
 -   Teaching assistant for Matrix Analysis MATH36001, semester one, 2021.
 -   Teaching assistant for Mathematical Workshop MATH10001, semester one, 2021.
 -   Teaching assistant for Complex Analysis MATH20142, semester two, 2020.
