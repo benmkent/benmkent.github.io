@@ -10,7 +10,7 @@ permalink: /cv/
 
 # Academic Experience
 
-**February 20024 – Present: Postdoc at IMATI-CNR, Pavia, Italy**
+**February 2024 – Present: Postdoc at IMATI-CNR, Pavia, Italy**
 - Development of *novel sparse grid polynomial approximation algorithms* in the context of *uncertainty quantification*.
 
 **September 2019 – November 2023: PhD in Numerical Analysis at The University of Manchester, UK**
