@@ -44,6 +44,8 @@ UK**
 -   *Co-organiser:* [Mathematics of Data Science](https://maths-of-data.github.io/) online student conference, 2020.  
 
 # Conference Talks
+-   Workshop on Frontiers of Uncertainty Quantification, Septmber 2024.
+    *Adaptive Stochastic Collocation for Parametric Parabolic PDEs*.
 -   The 29th Biennial Numerical Analysis Conference 2023, June 2023.
     *Adaptive in Time Approximation of Parametric Parabolic PDEs*.
 -   Manchester SIAM-IMA Student Chapter Conference 2023, April 2023.
