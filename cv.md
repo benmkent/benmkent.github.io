@@ -34,6 +34,7 @@ UK**
     GCSE: 10 A\* (inc Maths and English) + 1 A (French)
 
 # Publications
+- {% reference Seelinger2024 %}
 - {% reference Kent2023 %}
 -   In preparation:  
     *Error Estimation through Auxiliary Local Problems for a Stochastic Collocation Approximation of Advection–Diffusion Problems with Uncertain Inputs.*
