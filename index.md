@@ -5,7 +5,7 @@
 layout: home
 list_title: "Recent experience"
 ---
-I currently hold a postdoc position at [Istituto di Matematica Applicata e Tecnologie Informatiche "E. Magenes" (IMATI)](https://www.imati.cnr.it/make_home_page.php?language=ITA) working with [Lorenzo Tamellini](https://sites.google.com/view/lorenzo-tamellini/home-page).
+I am currently a postdoc at [Istituto di Matematica Applicata e Tecnologie Informatiche "E. Magenes" (IMATI)](https://www.imati.cnr.it/make_home_page.php?language=ITA) working with [Lorenzo Tamellini](https://sites.google.com/view/lorenzo-tamellini/home-page).
 
 I attained PhD in *Numerical Analysis* from the [Department of Mathematics](https://www.maths.manchester.ac.uk/) at The University of Manchester supervisored by [Professor Catherine Powell](https://personalpages.manchester.ac.uk/staff/Catherine.Powell/) and [Professor David Silvester](https://personalpages.manchester.ac.uk/staff/david.silvester/). It was an iCASE sponsored project with [IBM Research UK](https://research.ibm.com/labs/uk).
 
