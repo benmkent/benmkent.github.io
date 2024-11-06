@@ -16,7 +16,7 @@ permalink: /cv/
 **September 2019 – November 2023: PhD in Numerical Analysis at The University of Manchester, UK**
 -   Supervised by Professor [Professor Catherine Powell](https://personalpages.manchester.ac.uk/staff/Catherine.Powell/) and [Professor David Silvester](https://personalpages.manchester.ac.uk/staff/david.silvester/).
 -   Industry sponsored ICASE project with **IBM Research UK**.
--   Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*. [PDF](https://research.manchester.ac.uk/en/studentTheses/efficient-approximation-of-parametric-parabolic-partial-different)
+-   Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*. [\[PDF\]](https://research.manchester.ac.uk/en/studentTheses/efficient-approximation-of-parametric-parabolic-partial-different)
 -   Investigated **adaptive-in-time sparse-grid stochastic collocation approximation** of a parametric time-dependent advection–diffusion problem.
 -   Techniques considered include *finite element method*, *adaptive timestepping* (local error control) and *sparse grid polynomial approximation*.
 -   Hierarchical and residual error estimation strategies developed in the context of *novel adaptive approximation algorithms*.
