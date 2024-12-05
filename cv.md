@@ -44,8 +44,13 @@ UK**
 -   *Co-organiser:* [Mathematics of Data Science](https://maths-of-data.github.io/) online student conference, 2020.  
 
 # Conference Talks
--   Workshop on Frontiers of Uncertainty Quantification, Septmber 2024.
+-   UM-Bridge Workshop 2024, December 2024.
+    *An UM-Bridge-based setup for multi-fidelity surrogate models for UQ*. (**invited talk**). [\[PDF\]](/assets/slides/umbridgeworkshop24.pdf) [\[Link\]](https://um-bridge.github.io/workshop/)
+-   CNR-IMATI Internal Conference, November 2024.
+    *Multi-fidelity Approach for Uncertainty Quantification of a Fluid Dynamics NASA Test Case*.
+-   Workshop on Frontiers of Uncertainty Quantification, September 2024.
     *Adaptive Stochastic Collocation for Parametric Parabolic PDEs*.
+-   Adaptive-in-time approximation for UQ
 -   The 29th Biennial Numerical Analysis Conference 2023, June 2023.
     *Adaptive in Time Approximation of Parametric Parabolic PDEs*.
 -   Manchester SIAM-IMA Student Chapter Conference 2023, April 2023.
@@ -83,6 +88,7 @@ Lloyd’s Register, Southampton, UK**
 -   Python: FEM approximation via FEniCS and PETSC4py. Interfacing with MATLAB and Julia. Some additional minor industrial projects.
 -   C / C++: Development of cryptographic key-exchange algorithms, undergraduate course, development of FEM software.
 -   Julia: Implementation of novel PDE approximation algorithms. Interfacing with Python.
+-   OpenFOAM: Experience as a user for turbulent flow modelling.
 -   Experience using UNIX systems.
 -   Version control (git, SVN).
 -   Proficient with LaTeX.
