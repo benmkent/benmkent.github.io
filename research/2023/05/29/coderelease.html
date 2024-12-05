@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Code for Adaptive SC-FEM approximation of advection--diffusion released</title>
+  <meta name="description" content="The code corresponding to the preprint Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs is now rel...">
+
+  
+  
+  <link rel="stylesheet" href="https://benmkent.github.io//assets/style.css">
+
+  <link rel="canonical" href="https://benmkent.github.io//research/2023/05/29/coderelease.html">
+  <link rel="alternate" type="application/rss+xml" title="Benjamin M. Kent" href="https://benmkent.github.io//feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="border-bottom-thick px-2 clearfix" style="max-width: 64em>
+  <div class="left sm-width-full py-1 mt-1 mt-lg-0">
+    <a class="align-middle link-primary text-accent" href="/">
+      Benjamin M. Kent
+    </a>
+  </div>
+  <div class="right sm-width-full">
+    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+      
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/cv/">
+            Curriculum Vitae
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/research/">
+            Research
+          </a>
+        </li>
+        
+      
+        
+      
+    </ul>
+  </div>
+</header>
+
+
+    <div>
+      <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">Code for Adaptive SC-FEM approximation of advection--diffusion released</h1>
+  <div class="col-4 sm-width-full mt-1 border-top-thin ">
+    <p class="mb-3 py-2 bold h4"><time datetime="2023-05-29T16:52:57+00:00" itemprop="datePublished">May 29, 2023</time></p>
+  </div>
+
+  <div class="prose" itemprop="articleBody">
+      <p>The code corresponding to the preprint <a href="https://arxiv.org/abs/2210.03389">Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs
+</a> is now released on <a href="https://github.com/benmkent/adaptive_sc_fem">GitHub</a>.</p>
+
+<h1 id="required-matlab-packages">Required MATLAB packages</h1>
+<p>To use the package ensure the path contains:</p>
+<ul>
+  <li><a href="https://github.com/benmkent/adaptive_sc_fem">Adaptive SC-FEM package</a></li>
+  <li><a href="https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/">IFISS 3.6</a></li>
+  <li><a href="https://sites.google.com/view/sparse-grids-kit">Sparse Grids MATLAB Kit 22-2 (“California”)</a></li>
+</ul>
+
+<p>This can be achieved by downloading the approrpiate folders are ensuring the directories are placed within the <code class="language-plaintext highlighter-rouge">adaptive_sc_fem/</code> directory. 
+These specific versions are required. Function names in the more recent release of the Sparse Grids MATLAB Kit have not been updated and tested in this code yet.</p>
+
+<h1 id="running-the-examples">Running the examples</h1>
+<p>There are two examples included corresponding to the examples in <a href="https://arxiv.org/abs/2210.03389">Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs
+</a>.
+These are the scripts</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">run_experiment_4_dim</span><span class="o">.</span><span class="n">m</span>
+</code></pre></div></div>
+<p>and</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">run_experiment_64_dimensional</span><span class="o">.</span><span class="n">m</span>
+</code></pre></div></div>
+<p>The output results from the four parameter problem are <em>slightly</em> different when compared to those plotted in the paper due to small updates to the space–time approximation implementation.</p>
+
+<p>The four parameter example is annotated below.</p>
+
+<p>Firstly the path is set up.
+Folders containing <code class="language-plaintext highlighter-rouge">ifiss3.6</code> and <code class="language-plaintext highlighter-rouge">sparse-grids-matlab-kit</code> must be either be in the current directory, or added to the path by the user.</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">%% Set up path</span>
+<span class="c1">% The following directories need to be subdirectories of adaptive_sc_fem, </span>
+<span class="c1">% or independently added to the MATLAB path:</span>
+<span class="c1">% /sparse-grids-matlab-kit_v-22-02_California</span>
+<span class="c1">% /ifiss3.6</span>
+
+<span class="nb">addpath</span><span class="p">(</span><span class="nb">genpath</span><span class="p">(</span><span class="nb">pwd</span><span class="p">),</span><span class="s1">'-end'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The test problem is then defined.</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">%% Define problem</span>
+<span class="n">problem</span> <span class="o">=</span> <span class="n">define_problem</span><span class="p">(</span><span class="s1">'doubleglazing'</span><span class="p">);</span>
+</code></pre></div></div>
+<p>A reference solution is then set up. Approximation errors will be computed with respect to this reference solution. The main loop is run and produces a high fidelity reference approximation.</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">%% Set up reference for assessing error estimates</span>
+<span class="n">params</span> <span class="o">=</span> <span class="n">define_params</span><span class="p">(</span><span class="s1">'l4-jomp'</span><span class="p">);</span>
+<span class="n">reference</span> <span class="o">=</span> <span class="n">define_reference</span><span class="p">(</span><span class="s1">'none'</span><span class="p">);</span>
+
+<span class="n">params</span><span class="o">.</span><span class="n">l_initial</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">% Set reference Smolyak sparse grid level (polynomials including TD 5).</span>
+<span class="n">params</span><span class="o">.</span><span class="n">letol</span> <span class="o">=</span> <span class="mf">1e-7</span><span class="p">;</span> <span class="c1">% Set reference local error tolerance</span>
+<span class="n">params</span><span class="o">.</span><span class="n">reference</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">% Set as reference approximation</span>
+<span class="n">params</span><span class="o">.</span><span class="n">k_interp</span> <span class="o">=</span> <span class="n">inf</span><span class="p">;</span> <span class="c1">% Set parametric refinement threshold to inf (no refinement)</span>
+<span class="n">adaptive_sc_fem</span><span class="p">;</span>
+<span class="nb">save</span><span class="p">([</span><span class="s1">'reference.mat'</span><span class="p">],</span><span class="s1">'reference'</span><span class="p">,</span><span class="s1">'data_table'</span><span class="p">,</span><span class="s1">'fem'</span><span class="p">,</span><span class="s1">'problem'</span><span class="p">,</span><span class="s1">'params'</span><span class="p">,</span> <span class="s1">'-v7.3'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The approximation is then constructed.
+The reference approximation is specified to be precomputed and saved within the current folder (the <code class="language-plaintext highlighter-rouge">test-folder</code> option).
+The parameters are set to the predefined set <code class="language-plaintext highlighter-rouge">l4-jomp</code>.</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">%% Run experiments</span>
+
+<span class="n">reference</span> <span class="o">=</span> <span class="n">define_reference</span><span class="p">(</span><span class="s1">'test-folder'</span><span class="p">);</span>
+<span class="n">params</span> <span class="o">=</span> <span class="n">define_params</span><span class="p">(</span><span class="s1">'l4-jomp'</span><span class="p">);</span>
+</code></pre></div></div>
+<p>Approximation parameters can then be varied within the <code class="language-plaintext highlighter-rouge">params</code> structure.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>params.adapt_interp = 0; % Interpolate for new collocation points
+params.k_interp = 10; % c_{tol} safety factor
+params.marking_factor = 0.1; % Marking factor
+params.letol = 1e-5; % Local error tolerance
+</code></pre></div></div>
+<p>The approximation is constructed and the outputs saved to <code class="language-plaintext highlighter-rouge">l4-jomp.mat</code>.</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">adaptive_sc_fem</span><span class="p">;</span>
+<span class="nb">save</span><span class="p">([</span><span class="s1">'l4-jomp.mat'</span><span class="p">],</span><span class="s1">'reference'</span><span class="p">,</span><span class="s1">'data_table'</span><span class="p">,</span><span class="s1">'fem'</span><span class="p">,</span><span class="s1">'problem'</span><span class="p">,</span><span class="s1">'params'</span><span class="p">,</span><span class="s1">'-v7.3'</span><span class="p">)</span>
+</code></pre></div></div>
+<p>The results are post processed into MATLAB figures and CSV files.</p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plot_data</span><span class="p">(</span><span class="n">data_table</span><span class="p">,</span> <span class="n">reference</span><span class="p">,</span><span class="n">fem</span><span class="p">,</span><span class="n">params</span><span class="p">,</span><span class="n">problem</span><span class="p">)</span>
+</code></pre></div></div>
+<hr />
+<ol class="bibliography"></ol>
+
+  </div>
+
+</article>
+
+<div class="container mx-auto px-2 py-2 clearfix">
+  <!-- Use if you want to show previous and next for posts within a category. -->
+
+
+
+
+<div class="col-4 sm-width-full left mr-lg-4 mt-3">
+  <a class="no-underline border-top-thin py-1 block" href="https://benmkent.github.io//research/2023/05/12/arxivpreprint.html">
+    <span class="h5 bold text-accent">Previous</span>
+    <p class="bold h3 link-primary mb-1">Preprint available for accepted paper</p>
+    <p>Our paper titled Efficient Adaptive Stochastic Collocation Strategies for Advection-Diffusion Problems with Uncertain Inputs is available as a preprint. This...</p>
+  </a>
+</div>
+
+
+<div class="col-4 sm-width-full left mt-3">
+  <a class="no-underline border-top-thin py-1 block" href="https://benmkent.github.io//research/2023/07/12/paper.html">
+    <span class="h5 bold text-accent">Next</span>
+    <p class="bold h3 link-primary mb-1">Efficient Adaptive Stochastic Collocation Strategies for Advection–Diffusion Problems with Uncertain Inputs is now published</p>
+    <p>Our paper on *Efficient Adaptive Stochastic Collocation Strategies for Advection–Diffusion Problems with Uncertain Inputs* is now [available in the Springer...</p>
+  </a>
+</div>
+
+
+</div>
+
+    </div>
+
+    <div class="border-top-thin clearfix mt-2 mt-lg-4">
+  <div class="container mx-auto px-2">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/benmkent">benmkent</a>. It is a built from the <a class="text-accent" href="https://broccolini.net/swiss/">Swiss Jekyll theme</a>. </p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+      </li>
+      <li class="inline-block">
+        <a class="github-button" href="https://github.com/benmkent/" data-icon="octicon-star" data-count-href="benmkent//stargazers" data-count-api="/repos/benmkent/#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star benmkent/ on GitHub">Star</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
