@@ -40,12 +40,13 @@ UK**
     *Error Estimation through Auxiliary Local Problems for a Stochastic Collocation Approximation of Advection–Diffusion Problems with Uncertain Inputs.*
 
 # Conference Organisation
+-   *Co-organiser:* Minisymposium on *Adaptive sampling and surrogate/reduced order modelling strategies for parametric differential equations*, June 2025.
 -   *Co-organiser:* [Manchester Mathematics Research Student Conference](https://www.maths.manchester.ac.uk/~pgconf/) online conference, 2020.  
 -   *Co-organiser:* [Mathematics of Data Science](https://maths-of-data.github.io/) online student conference, 2020.  
 
 # Conference Talks
 -   UM-Bridge Workshop 2024, December 2024.
-    *An UM-Bridge-based setup for multi-fidelity surrogate models for UQ*. (**invited talk**). [\[PDF\]](/assets/slides/umbridgeworkshop24.pdf) [\[Link\]](https://um-bridge.github.io/workshop/)
+    *An UM-Bridge-based setup for multi-fidelity surrogate models for UQ*. (**invited talk**). [\[PDF\]](/assets/slides/umbridgeworkshop24.pdf) [\[YouTube\]](https://youtu.be/mkkBlDaqAp0?si=qZ6dzUSnjm5oi9C3)
 -   CNR-IMATI Internal Conference, November 2024.
     *Multi-fidelity Approach for Uncertainty Quantification of a Fluid Dynamics NASA Test Case*.
 -   Workshop on Frontiers of Uncertainty Quantification, September 2024.
