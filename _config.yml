@@ -51,6 +51,3 @@ kramdown:
   hard_wrap: false
 
 excerpt_separator: "<!--more-->"
-
-exclude:
-  - assets/cv

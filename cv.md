@@ -3,4 +3,4 @@ layout: page
 title: Curriculum Vitae
 permalink: /cv/
 ---
-{% include_relative assets/cv/cvraw.md %}
+{% include_relative _drafts/cv/cvraw.md %}
