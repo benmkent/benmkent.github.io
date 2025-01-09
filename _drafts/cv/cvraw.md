@@ -5,7 +5,7 @@
 # Academic Experience
 
 ## February 2024 – Present: Assegnista di Ricerca (Postdoctoral Researcher) at CNR-IMATI, Pavia, Italy
-- Development of novel multi-fidelity surrogate modelling algorithm for use with ``noisy solvers''.
+- Development of novel multi-fidelity surrogate modelling algorithm for use with "noisy" solvers.
 - Focus on non-intrusive approximation via sparse grid methods and exploiting spectral polynomial approximation properties.
 - Development of test cases including parametric elliptic and parabolic PDEs and using benchmark *Reynolds-Averaged Navier-Stokes* simulations.
 - Containerisation and deployment of research models via *Docker* and *Kubernetes*.
@@ -14,9 +14,9 @@
 - Supervised by [Professor Catherine Powell](https://personalpages.manchester.ac.uk/staff/Catherine.Powell/) and [Professor David Silvester](https://personalpages.manchester.ac.uk/staff/david.silvester/).
 - Industry sponsored ICASE project with *IBM Research UK*.
 - Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*. [\[PDF\]](https://research.manchester.ac.uk/en/studentTheses/efficient-approximation-of-parametric-parabolic-partial-different)
-- Investigated **adaptive-in-time sparse-grid stochastic collocation approximation** of a parametric time-dependent advection–diffusion problem.
-- Techniques include *finite element method*, *adaptive timestepping* and *sparse polynomial approximation*.
-- Hierarchical and residual error estimation strategies developed in the context of *novel adaptive approximation algorithms*.
+- Investigated *adaptive-in-time sparse-grid stochastic collocation approximation* of a parametric time-dependent advection–diffusion problem.
+- Investigated techniques include finite element method, adaptive timestepping and sparse polynomial approximation.
+- Developed hierarchical and residual based error estimation strategies in the context of novel adaptive approximation algorithms.
 - Studied *Functional Analysis*, *Approximation Theory and Finite Element Analysis*, *Adaptive Finite Element Methods*, *Uncertainty Quantification* (*Monte Carlo*, *stochastic collocation*, *stochastic Galerkin methods*) and *Bayesian inverse problems*.
 
 ## September 2012 – July 2015: Mathematics and Physics BSc, First-Class Honours at The University of Warwick, UK
@@ -32,7 +32,7 @@
 - Kent, B.M. Efficient Approximation of Parametric Parabolic Partial Differential Equations. PhD Thesis, University of Manchester (2024). [\[eThesis at Univeristy of Manchester\]](https://research.manchester.ac.uk/en/studentTheses/efficient-approximation-of-parametric-parabolic-partial-different)
 
 ## In Preparation
-- Kent, B. M., Tamellini, L., Giacomini, M., Huerta, A.: Multi-Fidelity Surrogate Modelling for ``Noisy'' Solvers via a Novel Multi-Index Stochastic Collocation Algorithm.
+- Kent, B. M., Tamellini, L., Giacomini, M., Huerta, A.: Multi-Fidelity Surrogate Modelling for "Noisy" Solvers via a Novel Multi-Index Stochastic Collocation Algorithm.
 
 # Conference Organisation
 - *Co-organiser:* Minisymposium on [*Adaptive sampling and surrogate/reduced order modelling strategies for parametric differential equations*](https://admos2025.cimne.com/event/area/37eb9a31-759f-11ef-a6b7-000c29ddfc0c), XII International Conference on Adaptive Modeling and Simulation (ADMOS), June 2025.
@@ -66,13 +66,13 @@
 -  Upgrading FEM software components from FORTRAN to C++.
 
 # Programming Experience
-- MATLAB: 4 years industrial algorithm development and data analysis. 4 years as a research tool for approximation of parametric partial differential equations.
-- Python: 2 years including FEM approximation via *FEniCS* and *petsc4py*, packaging models for containerisation, interfacing with research models.
-- Julia: Implementation of novel PDE approximation algorithms and development of sparse grids approximation package. Interfacing and exploiting existing Python packages.
-- OpenFOAM: Experience as a user for *Reynolds-Averaged Navier-Stokes* turbulence modelling.
+- MATLAB: Industrial algorithm development and data analysis. Research tool for investigations into the approximation of parametric partial differential equations.
+- Python: FEM approximation via *FEniCS* and *petsc4py*, design of interfaces to package models for containerisation.
+- Julia: Implementation of novel PDE approximation algorithms and development of sparse grids approximation package. Interfacing with existing Python packages.
+- OpenFOAM and ParaView: Experience as a user for *Reynolds-Averaged Navier-Stokes* turbulence modelling including mesh generation, solver configuration, post processing and analysis.
 - Docker and Kubernetes: Containerisation of software models via Docker and deployment via Kubernetes.
 - C / C++: Development of cryptographic key-exchange algorithms, development of FEM software.
-- Unix systems, version control (git, SVN, workflow automation), LaTeX.
+- Unix systems, version control systems and workflow automation, LaTeX.
 
 # Teaching Experience
 - University of Manchester: Teaching assistant for Matrix Analysis MATH36001 (semester one, 2021), Mathematical Workshop (MATH10001, semester one, 2021), for Complex Analysis MATH20142 (semester two, 2020).
