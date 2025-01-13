@@ -137,3 +137,34 @@ code {
   }
 
 }
+
+.content-with-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content-with-image .prose {
+  flex: 3; /* Adjust this for the content width */
+  margin-right: 20px; /* Add spacing between content and image */
+}
+
+.content-with-image .image-right {
+  flex: 1; /* Adjust this for the image width */
+}
+
+.content-with-image .image-right img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto;
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+@media (max-width: 768px) {
+  .content-with-image {
+    flex-direction: column;
+  }
+  .content-with-image .prose {
+    margin-right: 0;
+  }
+}
+
