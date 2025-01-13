@@ -161,10 +161,10 @@ code {
 
 @media (max-width: 300px) {
     .content-with-image {
-      flex-direction: column-reverse;
     }
     .content-with-image .prose {
       margin-right: 0;
+      flex-direction: column;
     }
 }
 
