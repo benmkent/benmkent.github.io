@@ -154,8 +154,17 @@ code {
 }
 
 .content-with-image .image-right img {
-  max-width: 300; /* Ensure the image is responsive */
+  max-width: 300px; /* Ensure the image is responsive */
   height: auto;
   border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+@media (max-width: 300px) {
+    .content-with-image {
+      flex-direction: column-reverse;
+    }
+    .content-with-image .prose {
+      margin-right: 0;
+    }
 }
 
