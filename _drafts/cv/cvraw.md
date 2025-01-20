@@ -2,9 +2,10 @@
 **Website** <https://benmkent.github.io/><br>
 **GitHub** <https://github.com/benmkent/><br>
 
-# Academic Experience
+# Experience
 
 ## February 2024 – Present: Assegnista di Ricerca (Postdoctoral Researcher) at CNR-IMATI, Pavia, Italy
+- Supervised by [Lorenzo Tamellini](https://sites.google.com/view/lorenzo-tamellini/home-page).
 - Development of novel multi-fidelity surrogate modelling algorithm for use with "noisy" solvers.
 - Focus on non-intrusive approximation via sparse grid methods and exploiting spectral polynomial approximation properties.
 - Development of test cases including parametric elliptic and parabolic PDEs and using benchmark *Reynolds-Averaged Navier-Stokes* simulations.
@@ -15,12 +16,25 @@
 - Industry sponsored ICASE project with *IBM Research UK*.
 - Thesis: *Efficient Approximation of Parametric Parabolic Partial Differential Equations*. [\[PDF\]](https://research.manchester.ac.uk/en/studentTheses/efficient-approximation-of-parametric-parabolic-partial-different)
 - Investigated *adaptive-in-time sparse-grid stochastic collocation approximation* of a parametric time-dependent advection–diffusion problem.
-- Investigated techniques include finite element method, adaptive timestepping and sparse polynomial approximation.
+- Focused on a combination of finite element method, adaptive timestepping and sparse polynomial approximation.
 - Developed hierarchical and residual based error estimation strategies in the context of novel adaptive approximation algorithms.
-- Studied *Functional Analysis*, *Approximation Theory and Finite Element Analysis*, *Adaptive Finite Element Methods*, *Uncertainty Quantification* (*Monte Carlo*, *stochastic collocation*, *stochastic Galerkin methods*) and *Bayesian inverse problems*.
+- Also studied topics in *Functional Analysis*, *Approximation Theory and Finite Element Analysis*, *Adaptive Finite Element Methods*, *Uncertainty Quantification* (*Monte Carlo*, *stochastic collocation*, *stochastic Galerkin methods*) and *Bayesian inverse problems*.
+
+## September 2017 – August 2019: Algorithm Developer at Thales, Stockport, UK
+-  Development of array signal processing algorithm for time series sensor data.
+-  Analysis, evaluation and reporting for customer experiments.
+-  Collaboration with systems engineers to transform customer requirements to algorithm specifications.
+-  Collaboration with software engineers to implement algorithm specifications in products.
+
+## September 2015 – September 2017: Research Engineer at Thales, Reading, UK
+-   Two-year graduate scheme with training in both technical and core skills.
+-   Four project placements: cryptographic key exchange algorithms, radar signal processing algorithms, filtering, data fusion and tracking algorithms, array signal processing and experimental data analysis.
 
 ## September 2012 – July 2015: Mathematics and Physics BSc, First-Class Honours at The University of Warwick, UK
 - Prize for the **best exam results in my cohort**.
+
+## July 2014 – August 2014: Rules and Procedures Software Internship, Lloyd’s Register, Southampton, UK
+-  Upgrading FEM software components from FORTRAN to C++.
 
 ## September 2010 – July 2012: The College of Richard Collyer, Horsham, UK
 - A Levels: Mathematics A\*, Further Mathematics A\*, Physics A\*, Chemistry A\*, Electronics A\*\.
@@ -51,28 +65,14 @@
 - SIAM Conference on Uncertainty Quantification, April 2022. *A Posteriori Error Estimation for Stochastic Collocation Applied to Parametric Parabolic PDEs*.
 - 26th Annual Meeting of SIAM UKIE Section, January 2022. *A Posteriori Error Estimation for Stochastic Collocation Applied to Parametric Parabolic PDEs*.
 
-# Industrial Experience
-## September 2017 – August 2019: Algorithm Developer at Thales, Stockport, UK
--  Array signal processing algorithm development for time series sensor data.
--  Analysis, evaluation and reporting for customer experiments.
--  Collaboration with systems engineers to transform customer requirements to algorithm specifications
--  Collaboration with software engineers to implement algorithm specifications in products.
-
-## September 2015 – September 2017: Research Engineer at Thales, Reading, UK
--   Two-year graduate scheme with training in both technical and core skills.
--   Four project placements: cryptographic key exchange algorithms, radar signal processing algorithms, filtering, data fusion and tracking algorithms, array signal processing and data analysis.
-    
-## July 2014 – August 2014: Rules and Procedures Software Internship, Lloyd’s Register, Southampton, UK
--  Upgrading FEM software components from FORTRAN to C++.
-
 # Programming Experience
 - MATLAB: Industrial algorithm development and data analysis. Research tool for investigations into the approximation of parametric partial differential equations.
-- Python: FEM approximation via *FEniCS* and *petsc4py*, design of interfaces to package models for containerisation.
-- Julia: Implementation of novel PDE approximation algorithms and development of sparse grids approximation package. Interfacing with existing Python packages.
+- Python: FEM approximation via *FEniCS* and *petsc4py*, design of model interfaces for containerisation.
+- Julia: Implementation of novel PDE approximation algorithms and development of sparse grids approximation package [SparseGridsKit.jl](https://github.com/benmkent/SparseGridsKit.jl). Interfacing of Julia code with existing Python packages.
 - OpenFOAM and ParaView: Experience as a user for *Reynolds-Averaged Navier-Stokes* turbulence modelling including mesh generation, solver configuration, post processing and analysis.
-- Docker and Kubernetes: Containerisation of software models via Docker and deployment via Kubernetes.
-- C / C++: Development of cryptographic key-exchange algorithms, development of FEM software.
-- Unix systems, version control systems and workflow automation, LaTeX.
+- Docker and Kubernetes: Containerisation of software models via Docker and deployment via Kubernetes. Also have experience with SLURM systems.
+- C / C++: Implementation of cryptographic key-exchange algorithms, development of industrial FEM software.
+- Windows systems, Unix systems, version control systems and workflow automation, LaTeX.
 
 # Teaching Experience
 - University of Manchester: Teaching assistant for Matrix Analysis MATH36001 (semester one, 2021), Mathematical Workshop (MATH10001, semester one, 2021), for Complex Analysis MATH20142 (semester two, 2020).
