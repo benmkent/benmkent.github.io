@@ -4,8 +4,8 @@
 
 # Experience
 
-## February 2024 – Present: Assegnista di Ricerca (Postdoctoral Researcher) at CNR-IMATI, Pavia, Italy
-- Supervised by [Lorenzo Tamellini](https://sites.google.com/view/lorenzo-tamellini/home-page).
+## February 2024 – Present: Assegnista di Ricerca (Postdoctoral Researcher) at Istituto di Matematica Applicata e Tecnologie Informatiche "E. Magenes" (IMATI), Pavia, Italy
+- Supervised by [Lorenzo Tamellini](https://sites.google.com/view/lorenzo-tamellini/home-page). *IMATI* is a *Consiglio Nazionale delle Ricerche* (CNR) institute.
 - Development of novel multi-fidelity surrogate modelling algorithm for use with "noisy" solvers.
 - Focus on non-intrusive approximation via sparse grid methods and exploiting spectral polynomial approximation properties.
 - Development of test cases including parametric elliptic and parabolic PDEs and using benchmark *Reynolds-Averaged Navier-Stokes* simulations.
