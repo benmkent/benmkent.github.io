@@ -1,58 +1,35 @@
-name: Build CV site
+deploy:
+  needs: build
+  runs-on: ubuntu-latest
+  environment:
+    name: github-pages
+  permissions:
+    contents: read
+    pages: write
+    id-token: write
 
-on:
-  push:
-    branches:
-      - master  # or master, whichever you use
+  steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    - name: Download artifact from build
+      uses: actions/download-artifact@v4
+      with:
+        name: site
+        path: ./_site   # everything for deployment goes here
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - name: Copy static assets
+      run: |
+        cp styles.css ./_site/
+        if [ -d images ]; then cp -r images ./_site/; fi
 
-      - name: Install Pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
 
-      - name: Build HTML with Pandoc
-        run: |
-          pandoc cv.md bio.md contact.md experience.md publications.md talks.md \
-            -s --toc --toc-depth=2 \
-            --css=styles.css \
-            --include-in-header=header.html \
-            --include-after-body=script.js \
-            --section-divs \
-            -o index.html
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./_site
 
-      - name: Upload artifact (for debugging / reuse)
-        uses: actions/upload-artifact@v4
-        with:
-          name: site
-          path: index.html
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
