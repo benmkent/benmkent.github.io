@@ -1,9 +1,9 @@
-name: Build and Deploy CV site
+name: Build and Deploy site
 
 on:
   push:
     branches:
-      - main   # change if your default branch is different
+      - master   # change if your default branch is different
 
 jobs:
   build:
