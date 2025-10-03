@@ -1,0 +1,2 @@
+# Teaching Experience
+- University of Manchester: Teaching assistant for Matrix Analysis MATH36001 (semester one, 2021), Mathematical Workshop (MATH10001, semester one, 2021), for Complex Analysis MATH20142 (semester two, 2020).
