@@ -1,0 +1,290 @@
+/* ==========================
+   Base body + typography
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;          /* fully justified */
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* wrapper to center the layout */
+.page-wrapper {
+  max-width: 860px;             /* readable column width */
+  margin: 0 auto;
+  padding: 2rem 1rem;           /* breathing space */
+}
+#TOC {
+  position: fixed;               /* sticky left sidebar */
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  padding: 2rem 1.5rem;
+  background: #000;
+  color: #fff;
+  border-right: 1px solid #333;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* content shifted so TOC doesn’t overlay */
+body > div:not(#TOC),
+body > main,
+body > section {
+  margin-left: 280px;            /* leave space for TOC */
+}
+@media (max-width: 800px) {
+  #TOC {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    padding: 1rem;
+  }
+
+  #TOC ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+  }
+
+  #TOC li {
+    margin: 0;
+  }
+
+  body > div:not(#TOC),
+  body > main,
+  body > section {
+    margin-left: 0;
+  }
+
+  .page-wrapper {
+    max-width: 600px;             /* narrow column for mobile readability */
+    padding: 1rem;
+  }
+}
+
+
+/* Headings: compact and clear */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+h4, h5, h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+/* Collapse empty paragraphs */
+p:empty {
+  margin: 0;
+  padding: 0;
+}
+
+h2::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #aaa;
+  margin: 1em 0;
+}
+
+/* ==========================
+   Links
+========================== */
+body a {
+  color: #000;                        /* black text */
+  text-decoration: underline dashed;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: all 0.2s ease;
+}
+
+body a:hover {
+  color: #e30b5d;                     /* Swiss red */
+  text-decoration: underline solid;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+
+/* ==========================
+   Lists
+========================== */
+/* Top-level lists: flush with content, no marker */
+ul, ol {
+  list-style: square;        /* remove bullets/numbers for top-level */
+  padding-left: 0;         /* flush with main content */
+  margin: 0 0 0.5rem;        /* vertical spacing for the list */
+  line-height: 1.6;        /* line spacing */
+}
+
+/* Nested lists: indented with markers and proper wrapping */
+ul ul, ul ol, ol ul, ol ol {
+  list-style-position: inside;  /* wrapped lines align under text */
+  padding-left: 1.5rem;         /* indentation for nested lists */
+  margin-top: 0.5rem;           /* vertical spacing above nested list */
+  margin-bottom: 0.5rem;        /* vertical spacing below nested list */
+  line-height: 1.6;             /* line spacing inside nested items */
+}
+
+/* List items */
+li {
+  margin: 0 0 0.5rem 0;             /* spacing between bullets */
+  padding: 0;
+}
+
+/* Nested list markers */
+ol ol { list-style-type: lower-roman; }/* i, ii, iii for nested */
+ul ol { list-style-type: decimal; }    /* numbers for nested */
+ol ul { list-style-type: circle; }     /* hollow bullets */
+
+
+/* ==========================
+   Tables
+========================== */
+table {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* ==========================
+   Code blocks
+========================== */
+pre, code {
+  font-family: SFMono-Regular, Consolas, Menlo, "Liberation Mono", monospace;
+  background: #f7f7f7;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ==========================
+   Images
+========================== */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* ==========================
+   Table of contents
+========================== */
+/* ==========================
+   Table of contents
+========================== */
+#TOC {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1.1rem;     /* bigger text */
+  line-height: 1.6;
+  border-right: 1px solid #333;
+
+  background: #000;      /* black background */
+  color: #fff;           /* white text */
+}
+
+/* TOC heading (your name) */
+#TOC::before {
+  content: "Benjamin M. Kent";
+  display: block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #fff;           /* ensure heading is white */
+}
+
+#TOC h2 {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;     /* slightly smaller than list items */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;           /* white text */
+}
+
+/* TOC list — no bullets */
+#TOC ul {
+  list-style: none;      /* remove bullets */
+  margin: 0;
+  padding-left: 0;
+}
+#TOC li {
+  margin: 0.5rem 0;      /* spacing between items */
+  padding: 0;
+}
+#TOC a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.1rem;     /* match parent size for readability */
+  color: #fff;           /* white links by default */
+  transition: color 0.2s ease;
+}
+#TOC a:hover {
+  color: #e30b5d;        /* Swiss accent red */
+  font-weight: 700;
+}
+
+/* Optional: spacing at bottom */
+#TOC::after {
+  content: "";
+  display: block;
+  height: 2rem;
+}

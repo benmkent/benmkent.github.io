@@ -1,6 +1,3 @@
 ---
-layout: page
-title: Curriculum Vitae
-permalink: /cv/
+title: "Benjamin M. Kent"
 ---
-{% include_relative _drafts/cv/cvraw.md %}
