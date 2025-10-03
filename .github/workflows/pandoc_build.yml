@@ -1,0 +1,58 @@
+name: Build CV site
+
+on:
+  push:
+    branches:
+      - main  # or master, whichever you use
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Build HTML with Pandoc
+        run: |
+          pandoc cv.md bio.md contact.md experience.md publications.md talks.md \
+            -s --toc --toc-depth=2 \
+            --css=styles.css \
+            --include-in-header=header.html \
+            --include-after-body=script.js \
+            --section-divs \
+            -o index.html
+
+      - name: Upload artifact (for debugging / reuse)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: index.html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
