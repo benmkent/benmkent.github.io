@@ -3,7 +3,7 @@ name: Build CV site
 on:
   push:
     branches:
-      - main  # or master, whichever you use
+      - master  # or master, whichever you use
 
 jobs:
   build:
