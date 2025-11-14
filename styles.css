@@ -2,7 +2,7 @@
 /* Base page typography   */
 /* ---------------------- */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Inter", "IBM Plex Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   text-align: justify;          /* fully justified */
@@ -83,6 +83,7 @@ h1 {
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -93,6 +94,7 @@ h2 {
   border-top: 1px dotted #000000;
   padding-top: 0.4rem;
   padding-bottom: 0.2rem;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -184,7 +186,7 @@ img {
    Links
 ========================== */
 body a {
-  color: #000;                        /* black text */
+  color: #FF0000;
   text-decoration: underline dashed;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -192,7 +194,7 @@ body a {
 }
 
 body a:hover {
-  color: #e30b5d;                     /* Swiss red */
+  color: #FF0000;
   text-decoration: underline solid;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
