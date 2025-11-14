@@ -2,7 +2,8 @@
 /* Base page typography   */
 /* ---------------------- */
 body {
-  font-family: "Inter", "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Mono", "JetBrains Mono", "Space Mono", monospace;
+  font-feature-settings: "tnum", "ss01";
   font-size: 1rem;
   line-height: 1.6;
   text-align: justify;          /* fully justified */
@@ -24,7 +25,7 @@ nav#TOC::before {
   display: block;
   font-weight: bold;
   font-size: 1.1em;
-  color: #e30b5d;
+  color: #FF0000;
   margin-bottom: 0.8rem;
   padding-bottom: 0.4rem;
 }
@@ -102,6 +103,7 @@ h3 {
   font-weight: bold;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
 }
 
 /* ---------------------- */
