@@ -1,19 +1,60 @@
 /* ---------------------- */
 /* Base page typography   */
 /* ---------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Latin+Modern+Roman:wght@400;700&family=Latin+Modern+Mono&display=swap');
+
 body {
-  font-family: "IBM Plex Mono", "JetBrains Mono", "Space Mono", monospace;
-  font-feature-settings: "tnum", "ss01";
+  font-family: "Latin Modern Roman", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.45;
+  padding: 2rem;
+  background: #fafafa;
+  color: #111;
   font-size: 1rem;
   line-height: 1.6;
-  text-align: justify;          /* fully justified */
+  text-align: justify;
+  /* fully justified */
   margin: 0;
   padding: 0;
-  background: #fff;
-  color: #000;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1200px;
+}
+
+/* Headings mimic LaTeX spacing */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Latin Modern Roman", Georgia, serif;
+  margin-top: 2.2em;
+  margin-bottom: 0.8em;
+  font-weight: 700;
+}
+
+/* Larger drop spacing above h1 like LaTeX \section */
+h1 {
+  font-size: 2.0rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+/* Paragraph spacing like LaTeX (no blocky gaps) */
+p {
+  margin: 1.1em 0;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ---------------------- */
@@ -21,7 +62,8 @@ body {
 /* ---------------------- */
 
 nav#TOC::before {
-  content: "Benjamin M. Kent";    /* <-- change this to your title */
+  content: "Benjamin M. Kent";
+  /* <-- change this to your title */
   display: block;
   font-weight: bold;
   font-size: 1.1em;
@@ -62,48 +104,23 @@ nav#TOC a:hover {
 /* ---------------------- */
 /* Main content           */
 /* ---------------------- */
-body > section, h1 {
-  max-width: 700px;          /* readable column */
-  margin: 2rem auto;         /* horizontally centered */
+body>section,
+h1 {
+  max-width: 700px;
+  /* readable column */
+  margin: 2rem auto;
+  /* horizontally centered */
   padding: 0 2rem;
   box-sizing: border-box;
 }
 
 /* Offset content for sidebar on large screens */
 @media screen and (min-width: 900px) {
-  body > section, h1 {
+
+  body>section,
+  h1 {
     margin-left: 240px;
   }
-}
-
-/* ---------------------- */
-/* Headings               */
-/* ---------------------- */
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  border-top: 1px dotted #000000;
-  padding-top: 0.4rem;
-  padding-bottom: 0.2rem;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
 }
 
 /* ---------------------- */
@@ -117,56 +134,77 @@ section.level3 {
   margin-top: 1rem;
 }
 
-/* ---------------------- */
-/* Paragraphs & lists     */
-/* ---------------------- */
-p {
-  margin: 1rem 0;
-  text-align: justify;
-}
 
 /* ==========================
    Lists
 ========================== */
 /* Top-level lists: flush with content, no marker */
-ul, ol {
-  list-style: square;        /* remove bullets/numbers for top-level */
-  padding-left: 0;         /* flush with main content */
-  margin: 0 0 0.5rem;        /* vertical spacing for the list */
-  line-height: 1.6;        /* line spacing */
+ul,
+ol {
+  list-style: square;
+  /* remove bullets/numbers for top-level */
+  padding-left: 0;
+  /* flush with main content */
+  margin: 0 0 0.5rem;
+  /* vertical spacing for the list */
+  line-height: 1.6;
+  /* line spacing */
 }
 
 /* Nested lists: indented with markers and proper wrapping */
-ul ul, ul ol, ol ul, ol ol {
-  list-style-position: inside;  /* wrapped lines align under text */
-  padding-left: 1.5rem;         /* indentation for nested lists */
-  margin-top: 0.5rem;           /* vertical spacing above nested list */
-  margin-bottom: 0.5rem;        /* vertical spacing below nested list */
-  line-height: 1.6;             /* line spacing inside nested items */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  list-style-position: inside;
+  /* wrapped lines align under text */
+  padding-left: 1.5rem;
+  /* indentation for nested lists */
+  margin-top: 0.5rem;
+  /* vertical spacing above nested list */
+  margin-bottom: 0.5rem;
+  /* vertical spacing below nested list */
+  line-height: 1.6;
+  /* line spacing inside nested items */
 }
 
 /* List items */
 li {
-  margin: 0 0 0.5rem 0;             /* spacing between bullets */
+  margin: 0 0 0.5rem 0;
+  /* spacing between bullets */
   padding: 0;
 }
 
 /* Nested list markers */
-ol ol { list-style-type: lower-roman; }/* i, ii, iii for nested */
-ul ol { list-style-type: decimal; }    /* numbers for nested */
-ol ul { list-style-type: circle; }     /* hollow bullets */
+ol ol {
+  list-style-type: lower-roman;
+}
+
+/* i, ii, iii for nested */
+ul ol {
+  list-style-type: decimal;
+}
+
+/* numbers for nested */
+ol ul {
+  list-style-type: circle;
+}
+
+/* hollow bullets */
 
 
 
 /* ==========================
    Code blocks
 ========================== */
-pre, code {
+pre,
+code {
   font-family: SFMono-Regular, Consolas, Menlo, "Liberation Mono", monospace;
   background: #f7f7f7;
   padding: 0.2em 0.4em;
   border-radius: 3px;
 }
+
 pre {
   padding: 1rem;
   overflow-x: auto;
@@ -213,7 +251,7 @@ body a:hover {
   }
 
   /* Center content fully when TOC is hidden */
-  body > div {
+  body>div {
     margin-left: auto;
     margin-right: auto;
     max-width: 95%;
