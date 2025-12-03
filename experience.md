@@ -2,7 +2,7 @@
 
 ### Research Associate<br>Department of Engineering, University of Cambridge, Cambridge, UK<br>September 2025 – Present
 
-- Investigating probabilistic machine learning techniques as part of the [Prob_AI Hub](Prob_AI Hub).
+- Investigating probabilistic machine learning techniques as part of the [Prob_AI Hub](https://www.probai.uk/).
 
 ### Assegnista di Ricerca (Postdoctoral Researcher)<br>Istituto di Matematica Applicata e Tecnologie Informatiche "E. Magenes", Pavia, Italy<br>February 2024 – September 2025
 
