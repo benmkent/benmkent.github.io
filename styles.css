@@ -5,7 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Latin+Modern+Roman:wght@400;700&family=Latin+Modern+Mono&display=swap');
 
 body {
-  font-family: "Latin Modern Roman", Georgia, serif;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 18px;
   line-height: 1.45;
   padding: 2rem;
