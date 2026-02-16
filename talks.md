@@ -1,5 +1,6 @@
 ## Talks
 
+- Research seminar, Computational and Biological Learning Group, University of Cambridge, Feb 2026. *Learning linear structure in non-linear dynamics*.
 - 30th Biennial Numerical Analysis Conference, June 2025. *Noise Robust Multi-Index Stochastic Collocation for Parametric PDEs*.
 - XII International Conference on Adaptive Modeling and Simulation (ADMOS), June 2025. *Noise Robust Multi-Index Stochastic Collocation for Parametric PDEs*.
 - Sandia National Laboratories, March 2025. *Multi-Index Stochastic Collocation for PDEs with Imperfect Solvers*.
