@@ -1,6 +1,6 @@
 ##
 
-I am currently a *Research Associate* in the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) in the Department of Engineering, University of Cambridge.
+I am currently a *Research Associate* in the [Turner  group](https://rich-turner-group.github.io/index.html), which is part of the [Machine Learning Group](https://mlg.eng.cam.ac.uk/) in the Department of Engineering at the University of Cambridge.
 
 Previously, I was an *Assegnista di Ricerca* at [Istituto di Matematica Applicata e Tecnologie Informatiche "E. Magenes" (IMATI)](https://www.imati.cnr.it/make_home_page.php?language=ITA) working with [Lorenzo Tamellini](https://sites.google.com/view/lorenzo-tamellini/home-page) on multi-fidelity surrogate modelling, with a focus on uncertainty quantification.
 
