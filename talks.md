@@ -23,8 +23,8 @@
 ## Organisation
 
 - *Organising committee member:* Prob_AI Hub Winter School, January 2027.
-- *Co-organiser:* Minisymposium on *Recent Advances in Multifidelity Uncertainty Quantification*, SIAM Conference on Uncertainty Quatification, March 2026.
-- *Co-organiser:* Minisymposium on [Approximating complex systems: Surrogates, reduced order modelling and dimension reduction *](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia), 30th Biennial Numerical Analysis Conference, June 2025.
+- *Co-organiser:* Minisymposium on *Recent Advances in Multifidelity Uncertainty Quantification*, SIAM Conference on Uncertainty Quantification, March 2026.
+- *Co-organiser:* Minisymposium on [Approximating complex systems: Surrogates, reduced order modelling and dimension reduction](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia), 30th Biennial Numerical Analysis Conference, June 2025.
 - *Co-organiser:* Minisymposium on [*Adaptive sampling and surrogate/reduced order modelling strategies for parametric differential equations*](https://admos2025.cimne.com/event/area/37eb9a31-759f-11ef-a6b7-000c29ddfc0c), XII International Conference on Adaptive Modeling and Simulation (ADMOS), June 2025.
 - *Co-organiser:* [Manchester Mathematics Research Student Conference](https://www.maths.manchester.ac.uk/~pgconf/) online conference, 2020.
 - *Co-organiser:* [Mathematics of Data Science](https://maths-of-data.github.io/) online student conference, 2020.  

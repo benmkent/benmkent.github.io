@@ -6,7 +6,7 @@
 - Studied non-linear dynamical systems, and in particular approximation techniques building upon the linearisation of such systems via observation (lifting) functions, i.e., the many variants of Dynamic Mode Decomposition, and machine learning advancements.
 - Developed a probabilistic formulation of Koopman Mode Decomposition with a proper scoring rule based training strategy targeting sharp, well-calibrated forecasts.
 - Implementation using `torch` and `Hydra` for configuration management, and server-based GPU training.
-- Contributed talks to a number of Prob_AI events, and part of organising committee for the Prob_AI Winter School 2027.
+- Contributed talks to a number of Prob_AI events, and was part of the organising committee for the Prob_AI Winter School 2027.
 
 ### Assegnista di Ricerca (Postdoctoral Researcher)<br>Istituto di Matematica Applicata e Tecnologie Informatiche "E. Magenes", Pavia, Italy<br>February 2024 – September 2025
 
