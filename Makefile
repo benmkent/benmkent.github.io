@@ -1,7 +1,7 @@
 PANDOC       ?= pandoc
 PDF_ENGINE   ?= xelatex
 
-PDF_SOURCES  := cv_pdf.md cv.md bio.md contact.md experience.md publications.md talks.md
+PDF_SOURCES  := cv_pdf.md cv.md bio.md experience.md publications.md talks.md
 
 SITE_DIR     := _site
 OUTPUT_PDF   := cv.pdf
