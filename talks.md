@@ -1,6 +1,8 @@
 ## Talks
 
-- Prob_AI research retreat, May 2026. *Learning linear structure in non-linear dynamics*.
+- Prob_AI Hub Workshop, September 2026. *Learning well-calibrated probabilistic forecasts via Koopman-mode approximation and CRPS*.
+- WCCM-ECCOMAS, June 2026. *Noise-Robust Multi-Fidelity Surrogate Modelling for Parametric Partial Differential Equations*.
+- Prob_AI Hub research retreat, May 2026. *Learning linear structure in non-linear dynamics*.
 - Research seminar, Computational and Biological Learning Group, University of Cambridge, Feb 2026. *Learning linear structure in non-linear dynamics*.
 - 30th Biennial Numerical Analysis Conference, June 2025. *Noise Robust Multi-Index Stochastic Collocation for Parametric PDEs*.
 - XII International Conference on Adaptive Modeling and Simulation (ADMOS), June 2025. *Noise Robust Multi-Index Stochastic Collocation for Parametric PDEs*.
@@ -20,6 +22,7 @@
 
 ## Organisation
 
+- *Organising committee member:* Prob_AI Hub Winter School, January 2027.
 - *Co-organiser:* Minisymposium on *Recent Advances in Multifidelity Uncertainty Quantification*, SIAM Conference on Uncertainty Quatification, March 2026.
 - *Co-organiser:* Minisymposium on [Approximating complex systems: Surrogates, reduced order modelling and dimension reduction *](https://numericalanalysisconference.org.uk/conferences/2025/minisymposia), 30th Biennial Numerical Analysis Conference, June 2025.
 - *Co-organiser:* Minisymposium on [*Adaptive sampling and surrogate/reduced order modelling strategies for parametric differential equations*](https://admos2025.cimne.com/event/area/37eb9a31-759f-11ef-a6b7-000c29ddfc0c), XII International Conference on Adaptive Modeling and Simulation (ADMOS), June 2025.
