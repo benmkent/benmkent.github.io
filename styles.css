@@ -23,6 +23,14 @@ body {
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
+  /* keep the footer at the bottom of short pages */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
 }
 
 h1, h2, h3, h4, p, blockquote, pre, ul, ol, figure {
@@ -75,6 +83,7 @@ a:hover {
 
 pre,
 code {
+  font-family: Menlo, Consolas, "Liberation Mono", monospace;
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
@@ -158,11 +167,6 @@ pre > code {
 .site-nav a,
 .site-nav a:visited {
   color: #111;
-}
-
-/* bio.md starts with an empty "##", which gives an empty TOC entry */
-.site-nav li:has(> a:empty) {
-  display: none;
 }
 
 @media screen and (max-width: 600px) {

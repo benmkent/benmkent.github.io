@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>$pagetitle$</title>
+  <title>$if(page-name)$$page-name$ – $endif$$pagetitle$</title>
 $for(css)$
   <link rel="stylesheet" href="$css$" />
 $endfor$
@@ -18,12 +18,16 @@ $endif$
 
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="#">$title$</a>
-$if(toc)$
-    <nav class="site-nav" id="TOC" role="doc-toc">
-$table-of-contents$
+    <a class="site-title" href="index.html">$title$</a>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="talks.html">Talks</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-$endif$
   </div>
 </header>
 

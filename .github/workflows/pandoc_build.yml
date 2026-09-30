@@ -16,22 +16,14 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      - name: Build HTML with Pandoc
-        run: |
-          pandoc cv.md bio.md contact.md experience.md publications.md talks.md \
-            -s --toc --toc-depth=2 \
-            --template=template.html \
-            --lua-filter=html-filters.lua \
-            --css=styles.css \
-            --include-in-header=header.html \
-            --section-divs \
-            -o index.html
+      - name: Build site with Pandoc
+        run: make site
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: site
-          path: index.html
+          path: _site
 
   deploy:
     needs: build
@@ -44,19 +36,11 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: site
           path: ./_site
-
-      - name: Copy static assets
-        run: |
-          cp styles.css ./_site/
-          if [ -d images ]; then cp -r images ./_site/; fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
