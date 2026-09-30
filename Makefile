@@ -15,17 +15,18 @@ all: html pdf
 # Equivalent of the "Build HTML with Pandoc" step in pandoc_build.yml
 html: $(OUTPUT_HTML)
 
-$(OUTPUT_HTML): $(HTML_SOURCES) styles.css header.html script.js
+$(OUTPUT_HTML): $(HTML_SOURCES) styles.css header.html template.html html-filters.lua
 	$(PANDOC) $(HTML_SOURCES) \
 		-s --toc --toc-depth=2 \
+		--template=template.html \
+		--lua-filter=html-filters.lua \
 		--css=styles.css \
 		--include-in-header=header.html \
-		--include-after-body=script.js \
 		--section-divs \
 		-o $(OUTPUT_HTML)
 
 # PDF CV: same content as the HTML build, but without the TOC sidebar
-# and without the HTML-only includes (css/header/script). pdf-filters.lua
+# and without the HTML-only template/css/header. pdf-filters.lua
 # fixes up <br> tags and empty headings, which are otherwise mishandled
 # by the LaTeX writer.
 pdf: $(OUTPUT_PDF)

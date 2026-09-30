@@ -20,9 +20,10 @@ jobs:
         run: |
           pandoc cv.md bio.md contact.md experience.md publications.md talks.md \
             -s --toc --toc-depth=2 \
+            --template=template.html \
+            --lua-filter=html-filters.lua \
             --css=styles.css \
             --include-in-header=header.html \
-            --include-after-body=script.js \
             --section-divs \
             -o index.html
 
