@@ -1,5 +1,6 @@
 ## Talks
 
+- ERCOFTAC Workshop on [Uncertainty Quantification and Data Assimilation for Applications in Fluid Mechanics](https://www.ercoftac.org/events/uncertainty-quantification-and-data-assimilation-for-applications-in-fluid-mechanics/), Trieste, November 2026. *Learning calibrated forecasting for linear models of non-linear dynamical systems*.
 - Prob_AI Hub Workshop, September 2026. *Learning well-calibrated probabilistic forecasts via Koopman-mode approximation and CRPS*.
 - WCCM-ECCOMAS, June 2026. *Noise-Robust Multi-Fidelity Surrogate Modelling for Parametric Partial Differential Equations*.
 - Prob_AI Hub research retreat, May 2026. *Learning linear structure in non-linear dynamics*.

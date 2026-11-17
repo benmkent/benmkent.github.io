@@ -4,7 +4,7 @@
 
 - Investigating probabilistic machine learning techniques as part of the [Prob_AI Hub](https://www.probai.uk/).
 - Studied non-linear dynamical systems, and in particular approximation techniques building upon the linearisation of such systems via observation (lifting) functions, i.e., the many variants of Dynamic Mode Decomposition, and machine learning advancements.
-- Developed a probabilistic formulation of Koopman Mode Decomposition with a proper scoring rule based training strategy targeting sharp, well-calibrated forecasts.
+- Developed a probabilistic formulation of Koopman Mode Decomposition, Prob-KMD, with a proper scoring rule based training strategy targeting sharp, well-calibrated forecasts.
 - Implementation using `torch` and `Hydra` for configuration management, and server-based GPU training.
 - Contributed talks to a number of Prob_AI events, and was part of the organising committee for the Prob_AI Winter School 2027.
 
@@ -12,7 +12,7 @@
 
 - Developed novel multi-fidelity surrogate modelling algorithms for use with "noisy" solution data, including applications to complex, coupled modelling problems.
 - Focused on data-driven approximation via sparse grid polynomial interpolation methods and exploiting spectral polynomial approximation properties.
-We used adaptive experimental design optimally select sampling points to fit a multi-fidelity surrogate model.
+We used adaptive experimental design to optimally select sampling points to fit a multi-fidelity surrogate model.
 Our novel algorithm offers robust computationally efficient surrogate modelling for parametric problems. We focused on applications in uncertainty quantification and optimisation.
 - Implemented and analysed complex test problems including a NASA turbulent fluid flow validation case via `OpenFOAM` and `ParaView`, and use of `SLURM` high performance computing facilities.
 - Numerical experiments required containerisation and deployment of `Python`, `Julia`, and more complex solvers via `Docker` and `Kubernetes`.
